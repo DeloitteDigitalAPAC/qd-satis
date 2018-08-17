@@ -6,6 +6,9 @@
     "type": "library",
     "license": "proprietary",
     "scripts": {
-        "build": "rm -rf satis && git clone https://github.com/composer/satis && cd satis && composer install && php bin/satis build ../satis.json ../../qd-satis-build"
+        "build": "php vendor/bin/robo build"
+    },
+    "require": {
+        "consolidation/robo": "^1.3"
     }
 }
