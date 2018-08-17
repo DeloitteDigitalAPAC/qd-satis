@@ -1,0 +1,11 @@
+{
+    "name": "deloittedigital/qd_satis",
+    "description": "Simple static Composer repository generator for Quadrupal packages",
+    "keywords": ["package", "repository", "generator", "static", "composer"],
+    "homepage": "https://github.com/DeloitteDigitalAPAC/qd-satis",
+    "type": "library",
+    "license": "proprietary",
+    "scripts": {
+        "build": "rm -rf satis && git clone https://github.com/composer/satis && cd satis && composer install && php bin/satis build ../satis.json ../../qd-satis-build"
+    }
+}
