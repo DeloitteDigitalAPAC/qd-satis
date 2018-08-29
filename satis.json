@@ -53,6 +53,10 @@
     "quadrupal": {
       "type": "vcs",
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git"
+    },
+    "quadrupal-build": {
+      "type": "vcs",
+      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git"
     }
   },
   "require-all": true
