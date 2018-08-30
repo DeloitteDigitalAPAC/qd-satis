@@ -6,7 +6,8 @@
     "type": "library",
     "license": "proprietary",
     "scripts": {
-        "build": "php vendor/bin/robo build"
+        "build": "@php vendor/bin/robo build",
+        "serve": "@php -S localhost:8000 -t build"
     },
     "require": {
         "consolidation/robo": "^1.3"
