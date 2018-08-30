@@ -6,6 +6,10 @@
       "type": "vcs",
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git"
     },
+    "google_maps_overlays": {
+      "type": "vcs",
+      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git"
+    },
     "qd_media": {
       "type": "vcs",
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git"
