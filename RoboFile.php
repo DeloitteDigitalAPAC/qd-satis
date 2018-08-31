@@ -6,6 +6,11 @@
  */
 class RoboFile extends \Robo\Tasks {
 
+  function satisDirExists() {
+    exec('ls -l satis 2> /dev/null', $output, $satis_exit_code);
+    return 1 - $satis_exit_code;
+  }
+
   function getSatis() {
     $collection = $this->collectionBuilder();
     $collection->taskDeleteDir('satis')
@@ -45,12 +50,27 @@ class RoboFile extends \Robo\Tasks {
       ->run();
   }
 
-  function build() {
-    $this->stopOnFail(true);
-    $this->getSatis();
+  function build($opts = ['re-download-satis' => false, 'publish' => false]) {
+    $this->stopOnFail(TRUE);
+    if (!$this->satisDirExists() || $opts['re-download-satis']) {
+      $this->getSatis();
+    }
+
     $this->getBuildRepo();
     $this->buildSatis();
-    $this->publishChanges();
+
+    $this->taskGitStack()
+      ->dir('build')
+      ->exec('status')
+      ->run();
+
+    if ($opts['publish']) {
+      $this->publishChanges();
+    }
+  }
+
+  function serve() {
+    $this->_exec('php -S localhost:8000 -t build');
   }
 
 }
