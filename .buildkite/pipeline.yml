@@ -1,0 +1,6 @@
+steps:
+  - label: Build
+    command:
+      - "composer install && composer build"
+    agents:
+      composer: true
