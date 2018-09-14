@@ -4,6 +4,7 @@ steps:
       - "git config --global user.email ${BUILDKITE_BUILD_CREATOR_EMAIL}"
       - "git config --global user.name ${BUILDKITE_BUILD_CREATOR}"
       - "composer install && composer build -- --publish"
+    branches: "master"
     agents:
       queue: drupal
       composer: true
