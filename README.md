@@ -22,3 +22,8 @@ If you want to build and publish in one command, run
 ```
 robo build --publish
 ```
+
+Using composer, run
+```
+composer build -- --publish
+```
