@@ -1,7 +1,7 @@
 steps:
   - label: Build
     command:
-      - "composer install && composer build"
+      - "composer install && composer build -- --publish"
     agents:
       queue: drupal
       composer: true
