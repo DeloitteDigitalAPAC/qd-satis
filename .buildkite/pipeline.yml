@@ -3,4 +3,5 @@ steps:
     command:
       - "composer install && composer build"
     agents:
+      queue: drupal
       composer: true
