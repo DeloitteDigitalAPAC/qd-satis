@@ -8,7 +8,12 @@ class RoboFile extends \Robo\Tasks {
 
   function satisDirExists() {
     exec('ls -l satis 2> /dev/null', $output, $satis_exit_code);
-    return -1 * $satis_exit_code;
+    if ($satis_exit_code === 1) {
+      return FALSE;
+    }
+    else {
+      return TRUE;
+    }
   }
 
   function getSatis() {
