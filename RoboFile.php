@@ -8,7 +8,7 @@ class RoboFile extends \Robo\Tasks {
 
   function satisDirExists() {
     exec('ls -l satis 2> /dev/null', $output, $satis_exit_code);
-    return 1 - $satis_exit_code;
+    return -1 * $satis_exit_code;
   }
 
   function getSatis() {
@@ -27,7 +27,6 @@ class RoboFile extends \Robo\Tasks {
     $collection->taskDeleteDir('build')
     ->taskGitStack()
       ->stopOnFail()
-      ->dir('.')
       ->cloneShallow('git@github.com:DeloitteDigitalAPAC/qd-satis.git', 'build', 'gh-pages');
     return $collection->run();
   }
