@@ -33,7 +33,7 @@ class RoboFile extends \Robo\Tasks {
 
   function buildSatis() {
     return $this->taskExec('php bin/satis build ../satis.json ../build')
-      ->dir('satis')
+      ->dir('./satis')
       ->run();
   }
 
