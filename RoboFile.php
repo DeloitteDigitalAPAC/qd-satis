@@ -27,13 +27,14 @@ class RoboFile extends \Robo\Tasks {
     $collection->taskDeleteDir('build')
     ->taskGitStack()
       ->stopOnFail()
+      ->dir('.')
       ->cloneShallow('git@github.com:DeloitteDigitalAPAC/qd-satis.git', 'build', 'gh-pages');
     return $collection->run();
   }
 
   function buildSatis() {
     return $this->taskExec('php bin/satis build ../satis.json ../build')
-      ->dir('./satis')
+      ->dir('satis')
       ->run();
   }
 
