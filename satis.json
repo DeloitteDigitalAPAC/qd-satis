@@ -63,8 +63,5 @@
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git"
     }
   },
-  "require-all": true,
-  "archive": {
-    "directory": "dist"
-  }
+  "require-all": true
 }
