@@ -54,6 +54,10 @@
       "type": "vcs",
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-webform.git"
     },
+    "qd-security": {
+      "type": "vcs",
+      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git"
+    },
     "quadrupal": {
       "type": "vcs",
       "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git"
