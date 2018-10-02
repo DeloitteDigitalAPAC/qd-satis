@@ -1518,6 +1518,25 @@
             }
         },
         "deloittedigital/qd_security": {
+            "1.0.0": {
+                "name": "deloittedigital/qd_security",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
+                    "reference": "8b0ced11b4cea2f968eb082de33dccff91583c79"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/seckit": "^1.0.0-alpha2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2018-10-02T09:10:24+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_security",
                 "version": "dev-master",
