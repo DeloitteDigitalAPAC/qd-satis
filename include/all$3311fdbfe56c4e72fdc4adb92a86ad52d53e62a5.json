@@ -1050,13 +1050,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
-                    "reference": "7c8a024dd2f77c4bb288b1286478b596a4648bab"
+                    "reference": "8ff6b3131ef3e8fc9b9b8f899a9c8ed686b082aa"
                 },
                 "require": {
                     "deloittedigital/google_maps_overlays": "^0.0.6",
                     "drupal/address": "^1.1"
                 },
-                "time": "2018-03-18T22:50:18+00:00",
+                "time": "2018-10-11T06:51:52+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal event feature."
             },
@@ -1849,14 +1849,14 @@
                 ],
                 "description": "The Deloitte Digital Drupal Distribution"
             },
-            "v1.0.x-dev": {
+            "dev-master": {
                 "name": "deloittedigital/quadrupal",
-                "version": "v1.0.x-dev",
-                "version_normalized": "1.0.9999999.9999999-dev",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "b24154434daf7638e2c496e236475157a1d72c9d"
+                    "reference": "e5f53f5ad88d5e41de55feb263436c484b10f74f"
                 },
                 "require": {
                     "acquia/lightning": "^3.1.5",
@@ -1896,90 +1896,7 @@
                 "require-dev": {
                     "phing/phing": "^2.14"
                 },
-                "time": "2018-10-02T10:12:25+00:00",
-                "type": "drupal-profile",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    },
-                    "installer-paths": {
-                        "docroot/core": [
-                            "type:drupal-core"
-                        ],
-                        "docroot/modules/contrib/{$name}": [
-                            "type:drupal-module"
-                        ],
-                        "docroot/themes/contrib/{$name}": [
-                            "type:drupal-theme"
-                        ],
-                        "docroot/libraries/{$name}": [
-                            "type:drupal-library"
-                        ],
-                        "docroot/profiles/contrib/{$name}": [
-                            "type:drupal-profile"
-                        ]
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ],
-                    "post-update-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ]
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "The Deloitte Digital Drupal Distribution"
-            },
-            "dev-master": {
-                "name": "deloittedigital/quadrupal",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "04b624a6e3658806095a8a86cc5b86e54b084c4e"
-                },
-                "require": {
-                    "acquia/lightning": "^3.1.5",
-                    "deloittedigital/air": "^1.0.0",
-                    "deloittedigital/qd_alerts": "dev-master",
-                    "deloittedigital/qd_childmenu": "dev-master",
-                    "deloittedigital/qd_download": "dev-master",
-                    "deloittedigital/qd_event": "dev-master",
-                    "deloittedigital/qd_layouts": "dev-master",
-                    "deloittedigital/qd_link_description": "dev-master",
-                    "deloittedigital/qd_media": "2.x-dev",
-                    "deloittedigital/qd_news": "dev-master",
-                    "deloittedigital/qd_photo_gallery": "dev-master",
-                    "deloittedigital/qd_share_links": "dev-master",
-                    "deloittedigital/qd_webform": "^0.0.1",
-                    "drupal/admin_toolbar": "^1.24.0",
-                    "drupal/clamav": "^1.0",
-                    "drupal/config_ignore": "^2.1",
-                    "drupal/config_split": "^1.0",
-                    "drupal/console": "~1.0",
-                    "drupal/diff": "^1.0",
-                    "drupal/easy_breadcrumb": "~1.8",
-                    "drupal/focal_point": "^1.0@beta",
-                    "drupal/google_analytics": "^3.0@beta",
-                    "drupal/google_tag": "^1.1",
-                    "drupal/memcache": "^2.0-alpha5",
-                    "drupal/purge": "^3.0@beta",
-                    "drupal/recaptcha": "^2.3",
-                    "drupal/redirect": "^1.2",
-                    "drupal/seckit": "^1.0.0-alpha2",
-                    "drupal/security_review": "*",
-                    "drupal/shield": "^1.2.0",
-                    "drupal/simple_sitemap": "^2.12",
-                    "drupal/sitemap": "^1.4",
-                    "phing/phing": "^2.14"
-                },
-                "time": "2018-09-14T03:02:21+00:00",
+                "time": "2018-10-11T06:51:08+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
