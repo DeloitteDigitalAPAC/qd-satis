@@ -1043,6 +1043,23 @@
                 "type": "drupal-module",
                 "description": "Quadrupal event feature."
             },
+            "1.0.0": {
+                "name": "deloittedigital/qd_event",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "reference": "1d2f132503f0565af2b052b52656068f5049aedd"
+                },
+                "require": {
+                    "deloittedigital/google_maps_overlays": "^0.0.6",
+                    "drupal/address": "^1.1"
+                },
+                "time": "2018-10-22T04:09:41+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal event feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_event",
                 "version": "dev-master",
@@ -1050,13 +1067,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
-                    "reference": "8ff6b3131ef3e8fc9b9b8f899a9c8ed686b082aa"
+                    "reference": "1d2f132503f0565af2b052b52656068f5049aedd"
                 },
                 "require": {
                     "deloittedigital/google_maps_overlays": "^0.0.6",
                     "drupal/address": "^1.1"
                 },
-                "time": "2018-10-11T06:51:52+00:00",
+                "time": "2018-10-22T04:09:41+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal event feature."
             }
@@ -1443,6 +1460,31 @@
                 },
                 "description": "Quadrupal news feature."
             },
+            "1.0.0": {
+                "name": "deloittedigital/qd_news",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "reference": "a28a3746e77758a17789b8c8c43409624f2e9f26"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2018-08-14T08:09:01+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Quadrupal news feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_news",
                 "version": "dev-master",
@@ -1467,6 +1509,31 @@
                     ]
                 },
                 "description": "Quadrupal news feature."
+            },
+            "dev-Fix-8.6-unmet-dependencies": {
+                "name": "deloittedigital/qd_news",
+                "version": "dev-Fix-8.6-unmet-dependencies",
+                "version_normalized": "dev-Fix-8.6-unmet-dependencies",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "reference": "b9700801778de4000d6047a09ce3de448fe57656"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2018-10-22T05:57:06+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Quadrupal news feature."
             }
         },
         "deloittedigital/qd_photo_gallery": {
@@ -1477,9 +1544,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-photo-gallery.git",
-                    "reference": "ecd780c570a4747fb7e487e4bf967c2fc0693d83"
+                    "reference": "5dc181a76c88c5589574d8136b0a4df231ea22ce"
                 },
-                "time": "2018-08-17T00:49:19+00:00",
+                "time": "2018-10-22T04:12:15+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
@@ -1520,14 +1587,14 @@
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "deloittedigital/qd_security",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
-                    "reference": "8b0ced11b4cea2f968eb082de33dccff91583c79"
+                    "reference": "6afc77cd019aabdd5eb6aac2196ebc1b46c3417b"
                 },
                 "require": {
                     "drupal/clamav": "^1.0",
@@ -1535,7 +1602,26 @@
                     "drupal/seckit": "^1.0.0-alpha2",
                     "drupal/session_limit": "^1.0@beta"
                 },
-                "time": "2018-10-02T09:10:24+00:00",
+                "time": "2018-10-22T04:54:12+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
+            "dev-master": {
+                "name": "deloittedigital/qd_security",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
+                    "reference": "6afc77cd019aabdd5eb6aac2196ebc1b46c3417b"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/seckit": "^1.0.0-alpha2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2018-10-22T04:54:12+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             }
@@ -1815,7 +1901,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "e5f53f5ad88d5e41de55feb263436c484b10f74f"
+                    "reference": "3bad4fde59c22adcca892f8ecda6730033fc3803"
                 },
                 "require": {
                     "acquia/lightning": "^3.1.5",
@@ -1855,7 +1941,7 @@
                 "require-dev": {
                     "phing/phing": "^2.14"
                 },
-                "time": "2018-10-11T06:51:08+00:00",
+                "time": "2018-10-22T05:58:11+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -2052,17 +2138,17 @@
                 ],
                 "description": "The Deloitte Digital Drupal Distribution"
             },
-            "dev-feature-update-lightning": {
+            "dev-feature-update-8.6-fixes": {
                 "name": "deloittedigital/quadrupal",
-                "version": "dev-feature-update-lightning",
-                "version_normalized": "dev-feature-update-lightning",
+                "version": "dev-feature-update-8.6-fixes",
+                "version_normalized": "dev-feature-update-8.6-fixes",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "3972203805e428391812327f90b3ede5b7ee28b3"
+                    "reference": "0063358d47463c99e2459a4dfb26909060faaf66"
                 },
                 "require": {
-                    "acquia/lightning": "^3.2.0",
+                    "acquia/lightning": "^3.1.5",
                     "deloittedigital/air": "^1.0.0",
                     "deloittedigital/qd_alerts": "dev-master",
                     "deloittedigital/qd_childmenu": "dev-master",
@@ -2099,7 +2185,7 @@
                 "require-dev": {
                     "phing/phing": "^2.14"
                 },
-                "time": "2018-10-22T00:18:26+00:00",
+                "time": "2018-10-22T05:31:55+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -2385,6 +2471,82 @@
                     "geerlingguy/drupal-vm": "~4.3"
                 },
                 "time": "2018-08-30T06:22:07+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "1.2.0": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "reference": "eadf72429e4d0140f47b32f9f07680fa50b2c555"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "dev-master",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2018-10-22T01:46:38+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
