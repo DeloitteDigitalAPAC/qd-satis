@@ -2449,17 +2449,18 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
-                    "reference": "47457bb8bd4368d8b6eb0ef283892463d865076d"
+                    "reference": "eadf72429e4d0140f47b32f9f07680fa50b2c555"
                 },
                 "require": {
-                    "acquia/blt": "^9.1.0",
-                    "deloittedigital/quadrupal": "dev-master"
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "dev-master",
+                    "drupal/core": "^8.6.1"
                 },
                 "require-dev": {
                     "drupal/devel": "^1.2",
                     "geerlingguy/drupal-vm": "~4.3"
                 },
-                "time": "2018-10-22T01:01:52+00:00",
+                "time": "2018-10-22T01:46:38+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
