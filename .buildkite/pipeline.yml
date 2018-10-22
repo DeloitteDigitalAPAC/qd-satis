@@ -7,4 +7,5 @@ steps:
     branches: "master"
     agents:
       queue: drupal
-      composer: true
+      docker: true
+      type: awsecs
