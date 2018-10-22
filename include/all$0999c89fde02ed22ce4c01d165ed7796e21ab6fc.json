@@ -1517,12 +1517,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
-                    "reference": "b9700801778de4000d6047a09ce3de448fe57656"
+                    "reference": "42d05b3c5c9ab122728f47055b309866697322c3"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2018-10-22T05:57:06+00:00",
+                "time": "2018-10-22T22:07:50+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
