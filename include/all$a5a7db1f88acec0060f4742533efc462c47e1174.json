@@ -1517,12 +1517,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
-                    "reference": "42d05b3c5c9ab122728f47055b309866697322c3"
+                    "reference": "4ce494eddcc865386a739f2b4fbfebefb1a1f6dd"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2018-10-22T22:07:50+00:00",
+                "time": "2018-08-14T08:09:01+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -2611,7 +2611,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
-                    "reference": "eadf72429e4d0140f47b32f9f07680fa50b2c555"
+                    "reference": "1d1edfcb6fc6f1e307768108739b0f46430f1381"
                 },
                 "require": {
                     "acquia/blt": "^9.2.0",
@@ -2622,7 +2622,7 @@
                     "drupal/devel": "^1.2",
                     "geerlingguy/drupal-vm": "~4.3"
                 },
-                "time": "2018-10-22T01:46:38+00:00",
+                "time": "2018-10-22T22:52:31+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
