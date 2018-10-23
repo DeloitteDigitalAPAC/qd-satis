@@ -1492,37 +1492,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
-                    "reference": "a28a3746e77758a17789b8c8c43409624f2e9f26"
+                    "reference": "ef25f85601c6e42a68dd2347178ed903766a5cb0"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2018-08-14T08:09:01+00:00",
-                "type": "drupal-module",
-                "scripts": {
-                    "build": [
-                        "@composer install -n --prefer-dist",
-                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
-                    ],
-                    "test": [
-                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
-                    ]
-                },
-                "description": "Quadrupal news feature."
-            },
-            "dev-Fix-8.6-unmet-dependencies": {
-                "name": "deloittedigital/qd_news",
-                "version": "dev-Fix-8.6-unmet-dependencies",
-                "version_normalized": "dev-Fix-8.6-unmet-dependencies",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
-                    "reference": "4ce494eddcc865386a739f2b4fbfebefb1a1f6dd"
-                },
-                "require-dev": {
-                    "deloittedigital/qd_test": "^1.0"
-                },
-                "time": "2018-08-14T08:09:01+00:00",
+                "time": "2018-10-22T23:51:05+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -2698,6 +2673,82 @@
                     "geerlingguy/drupal-vm": "~4.3"
                 },
                 "time": "2018-09-19T03:04:44+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "dev-feature-ddigital-theme": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-feature-ddigital-theme",
+                "version_normalized": "dev-feature-ddigital-theme",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "reference": "1d1edfcb6fc6f1e307768108739b0f46430f1381"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "dev-master",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2018-10-22T22:52:31+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
