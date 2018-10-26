@@ -665,52 +665,26 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
-                    "reference": "c7bd1e92fd9072b482e977c32d925b3b2110033a"
+                    "reference": "9bf758121484f0fc15434e2802f1475a98c58ec4"
                 },
-                "time": "2018-10-26T03:40:36+00:00",
+                "time": "2018-10-26T05:21:05+00:00",
                 "type": "drupal-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-develop": "1.0.x-dev"
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
                     }
-                },
-                "description": "Module that provides alert functionality."
-            },
-            "dev-feature-module-improvments": {
-                "name": "deloittedigital/qd_alerts",
-                "version": "dev-feature-module-improvments",
-                "version_normalized": "dev-feature-module-improvments",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
-                    "reference": "4820932188130ab52e9129d96ae87af27f4a6cac"
-                },
-                "time": "2018-03-23T00:51:06+00:00",
-                "type": "drupal-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-develop": "1.0.x-dev"
-                    }
-                },
-                "description": "Module that provides alert functionality."
-            },
-            "dev-fix-unmet-dependency-error": {
-                "name": "deloittedigital/qd_alerts",
-                "version": "dev-fix-unmet-dependency-error",
-                "version_normalized": "dev-fix-unmet-dependency-error",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
-                    "reference": "df7e22de1ad9f33c0153f9578cb341ad3da80c1a"
-                },
-                "time": "2018-10-26T03:39:35+00:00",
-                "type": "drupal-module",
-                "scripts": {
-                    "build": [
-                        "@composer install -n --prefer-dist"
-                    ]
-                },
-                "description": "Quadrupal alert feature."
+                ],
+                "description": "Quadrupal alert feature",
+                "support": {
+                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
             }
         },
         "deloittedigital/qd_childmenu": {
@@ -2080,25 +2054,24 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "3bad4fde59c22adcca892f8ecda6730033fc3803"
+                    "reference": "1640f37d3a48802ffef1adb85f7c433d979402a1"
                 },
                 "require": {
                     "acquia/lightning": "^3.1.5",
                     "deloittedigital/air": "^1.0.0",
-                    "deloittedigital/qd_alerts": "dev-master",
+                    "deloittedigital/qd_alerts": "^1.2.0",
                     "deloittedigital/qd_childmenu": "dev-master",
-                    "deloittedigital/qd_download": "dev-master",
-                    "deloittedigital/qd_event": "dev-master",
+                    "deloittedigital/qd_download": "^1.2.0",
+                    "deloittedigital/qd_event": "^1.2.0",
                     "deloittedigital/qd_layouts": "dev-master",
                     "deloittedigital/qd_link_description": "dev-master",
-                    "deloittedigital/qd_media": "2.x-dev",
-                    "deloittedigital/qd_news": "dev-master",
-                    "deloittedigital/qd_photo_gallery": "dev-master",
-                    "deloittedigital/qd_security": "^1.0.0",
+                    "deloittedigital/qd_media": "^1.2.0",
+                    "deloittedigital/qd_news": "^1.2.0",
+                    "deloittedigital/qd_photo_gallery": "^1.2.0",
+                    "deloittedigital/qd_security": "^1.2.0",
                     "deloittedigital/qd_share_links": "dev-master",
                     "deloittedigital/qd_webform": "^0.0.1",
                     "drupal/admin_toolbar": "^1.24.0",
-                    "drupal/clamav": "^1.0",
                     "drupal/config_ignore": "^2.1",
                     "drupal/config_split": "^1.0",
                     "drupal/console": "~1.0",
@@ -2107,12 +2080,9 @@
                     "drupal/google_analytics": "^3.0@beta",
                     "drupal/google_tag": "^1.1",
                     "drupal/memcache": "^2.0-alpha5",
-                    "drupal/password_policy": "^3.0@alpha",
                     "drupal/purge": "^3.0@beta",
                     "drupal/recaptcha": "^2.3",
                     "drupal/redirect": "^1.2",
-                    "drupal/seckit": "^1.0.0-alpha2",
-                    "drupal/session_limit": "^1.0@beta",
                     "drupal/shield": "^1.2.0",
                     "drupal/simple_sitemap": "^2.12",
                     "drupal/sitemap": "^1.4"
@@ -2120,7 +2090,7 @@
                 "require-dev": {
                     "phing/phing": "^2.14"
                 },
-                "time": "2018-10-22T05:58:11+00:00",
+                "time": "2018-10-26T05:19:26+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -2449,88 +2419,6 @@
                     "phing/phing": "^2.14"
                 },
                 "time": "2018-10-22T05:31:55+00:00",
-                "type": "drupal-profile",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    },
-                    "installer-paths": {
-                        "docroot/core": [
-                            "type:drupal-core"
-                        ],
-                        "docroot/modules/contrib/{$name}": [
-                            "type:drupal-module"
-                        ],
-                        "docroot/themes/contrib/{$name}": [
-                            "type:drupal-theme"
-                        ],
-                        "docroot/libraries/{$name}": [
-                            "type:drupal-library"
-                        ],
-                        "docroot/profiles/contrib/{$name}": [
-                            "type:drupal-profile"
-                        ]
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ],
-                    "post-update-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ]
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "The Deloitte Digital Drupal Distribution"
-            },
-            "dev-feature-update-version-constrain": {
-                "name": "deloittedigital/quadrupal",
-                "version": "dev-feature-update-version-constrain",
-                "version_normalized": "dev-feature-update-version-constrain",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
-                    "reference": "b8226c3aabee6c63a27a6d5ca0b22bf9b138e940"
-                },
-                "require": {
-                    "acquia/lightning": "^3.1.5",
-                    "deloittedigital/air": "^1.0.0",
-                    "deloittedigital/qd_alerts": "^1.2.0",
-                    "deloittedigital/qd_childmenu": "dev-master",
-                    "deloittedigital/qd_download": "^1.2.0",
-                    "deloittedigital/qd_event": "^1.2.0",
-                    "deloittedigital/qd_layouts": "dev-master",
-                    "deloittedigital/qd_link_description": "dev-master",
-                    "deloittedigital/qd_media": "^1.2.0",
-                    "deloittedigital/qd_news": "^1.2.0",
-                    "deloittedigital/qd_photo_gallery": "^1.2.0",
-                    "deloittedigital/qd_security": "^1.2.0",
-                    "deloittedigital/qd_share_links": "dev-master",
-                    "deloittedigital/qd_webform": "^0.0.1",
-                    "drupal/admin_toolbar": "^1.24.0",
-                    "drupal/config_ignore": "^2.1",
-                    "drupal/config_split": "^1.0",
-                    "drupal/console": "~1.0",
-                    "drupal/easy_breadcrumb": "~1.8",
-                    "drupal/focal_point": "^1.0@beta",
-                    "drupal/google_analytics": "^3.0@beta",
-                    "drupal/google_tag": "^1.1",
-                    "drupal/memcache": "^2.0-alpha5",
-                    "drupal/purge": "^3.0@beta",
-                    "drupal/recaptcha": "^2.3",
-                    "drupal/redirect": "^1.2",
-                    "drupal/shield": "^1.2.0",
-                    "drupal/simple_sitemap": "^2.12",
-                    "drupal/sitemap": "^1.4"
-                },
-                "require-dev": {
-                    "phing/phing": "^2.14"
-                },
-                "time": "2018-10-26T05:11:08+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
