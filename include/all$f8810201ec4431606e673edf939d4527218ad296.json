@@ -658,6 +658,34 @@
                 },
                 "description": "Module that provides alert functionality."
             },
+            "1.2.0": {
+                "name": "deloittedigital/qd_alerts",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
+                    "reference": "9bf758121484f0fc15434e2802f1475a98c58ec4"
+                },
+                "time": "2018-10-26T05:21:05+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Quadrupal alert feature",
+                "support": {
+                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_alerts",
                 "version": "dev-master",
@@ -1067,6 +1095,23 @@
                     "drupal/address": "^1.1"
                 },
                 "time": "2018-10-22T04:09:41+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal event feature."
+            },
+            "1.2.0": {
+                "name": "deloittedigital/qd_event",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "reference": "cbd35c14f0595790651f97128a3a1a0921115f8b"
+                },
+                "require": {
+                    "deloittedigital/google_maps_overlays": "^0.0.8",
+                    "drupal/address": "^1.1"
+                },
+                "time": "2018-10-24T05:11:06+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal event feature."
             },
@@ -2009,6 +2054,88 @@
                     "phing/phing": "^2.14"
                 },
                 "time": "2018-10-22T05:58:11+00:00",
+                "type": "drupal-profile",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+                        "./bin/phing push"
+                    ],
+                    "post-update-cmd": [
+                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+                        "./bin/phing push"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "The Deloitte Digital Drupal Distribution"
+            },
+            "1.2.1": {
+                "name": "deloittedigital/quadrupal",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "reference": "1640f37d3a48802ffef1adb85f7c433d979402a1"
+                },
+                "require": {
+                    "acquia/lightning": "^3.1.5",
+                    "deloittedigital/air": "^1.0.0",
+                    "deloittedigital/qd_alerts": "^1.2.0",
+                    "deloittedigital/qd_childmenu": "dev-master",
+                    "deloittedigital/qd_download": "^1.2.0",
+                    "deloittedigital/qd_event": "^1.2.0",
+                    "deloittedigital/qd_layouts": "dev-master",
+                    "deloittedigital/qd_link_description": "dev-master",
+                    "deloittedigital/qd_media": "^1.2.0",
+                    "deloittedigital/qd_news": "^1.2.0",
+                    "deloittedigital/qd_photo_gallery": "^1.2.0",
+                    "deloittedigital/qd_security": "^1.2.0",
+                    "deloittedigital/qd_share_links": "dev-master",
+                    "deloittedigital/qd_webform": "^0.0.1",
+                    "drupal/admin_toolbar": "^1.24.0",
+                    "drupal/config_ignore": "^2.1",
+                    "drupal/config_split": "^1.0",
+                    "drupal/console": "~1.0",
+                    "drupal/easy_breadcrumb": "~1.8",
+                    "drupal/focal_point": "^1.0@beta",
+                    "drupal/google_analytics": "^3.0@beta",
+                    "drupal/google_tag": "^1.1",
+                    "drupal/memcache": "^2.0-alpha5",
+                    "drupal/purge": "^3.0@beta",
+                    "drupal/recaptcha": "^2.3",
+                    "drupal/redirect": "^1.2",
+                    "drupal/shield": "^1.2.0",
+                    "drupal/simple_sitemap": "^2.12",
+                    "drupal/sitemap": "^1.4"
+                },
+                "require-dev": {
+                    "phing/phing": "^2.14"
+                },
+                "time": "2018-10-26T05:19:26+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -3215,6 +3342,82 @@
                         "replace": true
                     }
                 },
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "dev-feature-update-quadrupal-profile": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-feature-update-quadrupal-profile",
+                "version_normalized": "dev-feature-update-quadrupal-profile",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "reference": "a58fc42bfdda6601717d58dc284ce453966c0476"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2018-10-26T05:46:20+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
                 "description": "Template for Deloitte Drupal 8 sites built with BLT."
             },
             "dev-google-map-overlay-version-fix": {
