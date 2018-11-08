@@ -639,9 +639,9 @@
                 "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
             }
         },
-        "deloittedigital/qd-accordion": {
+        "deloittedigital/qd_accordion": {
             "1.2.0": {
-                "name": "deloittedigital/qd-accordion",
+                "name": "deloittedigital/qd_accordion",
                 "version": "1.2.0",
                 "version_normalized": "1.2.0.0",
                 "source": {
@@ -653,16 +653,29 @@
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             },
+            "1.2.1": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "reference": "df7fa701aa084717f18d8f812becff289303654d"
+                },
+                "time": "2018-11-08T01:42:19+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal accordion."
+            },
             "dev-master": {
-                "name": "deloittedigital/qd-accordion",
+                "name": "deloittedigital/qd_accordion",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
-                    "reference": "9f17623ebf2e4dfbc2e2139fbd2faebf1c89ae45"
+                    "reference": "df7fa701aa084717f18d8f812becff289303654d"
                 },
-                "time": "2018-11-08T01:16:54+00:00",
+                "time": "2018-11-08T01:42:19+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             }
