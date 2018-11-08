@@ -679,6 +679,19 @@
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             },
+            "1.2.3": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "reference": "96672c4d939edf6fd539c01a70f3b4f034e5fd51"
+                },
+                "time": "2018-11-08T06:39:06+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal accordion."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_accordion",
                 "version": "dev-master",
@@ -686,9 +699,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
-                    "reference": "44b8c5e9dcc40b3299d0ddab202818d6d25052d4"
+                    "reference": "96672c4d939edf6fd539c01a70f3b4f034e5fd51"
                 },
-                "time": "2018-11-08T05:59:50+00:00",
+                "time": "2018-11-08T06:39:06+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             }
