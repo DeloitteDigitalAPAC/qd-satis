@@ -1378,6 +1378,19 @@
                 "type": "drupal-module",
                 "description": "Quadrupal icon link."
             },
+            "1.2.1": {
+                "name": "deloittedigital/qd_link_icon",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git",
+                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
+                },
+                "time": "2018-11-16T07:33:31+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal icon link."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_link_icon",
                 "version": "dev-master",
@@ -1385,9 +1398,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git",
-                    "reference": "090cde858d3c27c06d28af6c6303d134b779bc8f"
+                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
                 },
-                "time": "2018-11-16T03:37:25+00:00",
+                "time": "2018-11-16T07:33:31+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal icon link."
             }
