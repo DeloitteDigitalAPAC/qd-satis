@@ -625,6 +625,32 @@
                 "type": "drupal-module",
                 "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
             },
+            "1.0.0": {
+                "name": "deloittedigital/google_maps_overlays",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "reference": "d9701616ce8c2357097c26a0c8e49991caac8d97"
+                },
+                "time": "2018-11-22T03:34:13+00:00",
+                "type": "drupal-module",
+                "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
+            },
+            "1.0.1": {
+                "name": "deloittedigital/google_maps_overlays",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "reference": "b65830415c94c9e68a4fb7f4a2e6e66aa47797c7"
+                },
+                "time": "2018-12-07T02:45:54+00:00",
+                "type": "drupal-module",
+                "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
+            },
             "dev-master": {
                 "name": "deloittedigital/google_maps_overlays",
                 "version": "dev-master",
@@ -632,9 +658,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
-                    "reference": "836f9caa6e0b61a4c16bc280e4233eab650837bd"
+                    "reference": "b65830415c94c9e68a4fb7f4a2e6e66aa47797c7"
                 },
-                "time": "2018-04-27T06:31:00+00:00",
+                "time": "2018-12-07T02:45:54+00:00",
                 "type": "drupal-module",
                 "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
             }
@@ -692,6 +718,19 @@
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             },
+            "1.2.4": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "reference": "a96f214e7766e7091b07f800491332fef64e9837"
+                },
+                "time": "2018-12-11T10:06:27+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal accordion."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_accordion",
                 "version": "dev-master",
@@ -699,9 +738,22 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
-                    "reference": "96672c4d939edf6fd539c01a70f3b4f034e5fd51"
+                    "reference": "a96f214e7766e7091b07f800491332fef64e9837"
                 },
-                "time": "2018-11-08T06:39:06+00:00",
+                "time": "2018-12-11T10:06:27+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal accordion."
+            },
+            "dev-feature-add-rte": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "dev-feature-add-rte",
+                "version_normalized": "dev-feature-add-rte",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "reference": "996ed68dda2ba7e047f5bb5d4c7be0cdbd2f19e2"
+                },
+                "time": "2018-12-11T04:49:10+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
             }
@@ -1362,47 +1414,6 @@
                 "time": "2017-08-02T00:44:22+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal links feature."
-            }
-        },
-        "deloittedigital/qd_link_icon": {
-            "1.2.0": {
-                "name": "deloittedigital/qd_link_icon",
-                "version": "1.2.0",
-                "version_normalized": "1.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git",
-                    "reference": "090cde858d3c27c06d28af6c6303d134b779bc8f"
-                },
-                "time": "2018-11-16T03:37:25+00:00",
-                "type": "drupal-module",
-                "description": "Quadrupal icon link."
-            },
-            "1.2.1": {
-                "name": "deloittedigital/qd_link_icon",
-                "version": "1.2.1",
-                "version_normalized": "1.2.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git",
-                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
-                },
-                "time": "2018-11-16T07:33:31+00:00",
-                "type": "drupal-module",
-                "description": "Quadrupal icon link."
-            },
-            "dev-master": {
-                "name": "deloittedigital/qd_link_icon",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git",
-                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
-                },
-                "time": "2018-11-16T07:33:31+00:00",
-                "type": "drupal-module",
-                "description": "Quadrupal icon link."
             }
         },
         "deloittedigital/qd_media": {
