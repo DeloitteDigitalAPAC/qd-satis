@@ -4,75 +4,75 @@
   "repositories": {
     "air-theme": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git"
     },
     "google_maps_overlays": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git"
     },
     "qd_media": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git"
     },
     "qd-childmenu": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git"
     },
     "qd-alerts": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-alerts.git"
     },
     "qd-download": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-download.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git"
     },
     "qd-event": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git"
     },
     "qd-layouts": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git"
     },
     "qd-link-description": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-description.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git"
     },
     "qd-news": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git"
     },
     "qd-photo-gallery": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-photo-gallery.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-photo-gallery.git"
     },
     "qd-share-links": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-share-links.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-share-links.git"
     },
     "qd-link-icon": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-icon.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git"
     },
     "qd-webform": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-webform.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git"
     },
     "qd-security": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git"
     },
     "qd-accordion": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git"
     },
     "quadrupal": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git"
     },
     "quadrupal-build": {
       "type": "vcs",
-      "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git"
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git"
     }
   },
   "require-all": true

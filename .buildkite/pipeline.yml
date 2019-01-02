@@ -3,7 +3,7 @@ steps:
     command:
       - "git config --global user.email ${BUILDKITE_BUILD_CREATOR_EMAIL}"
       - "git config --global user.name '${BUILDKITE_BUILD_CREATOR}'"
-      - "ssh-keyscan -p 7999 hub.deloittedigital.com.au >> ~/.ssh/known_hosts"
+      - "ssh-keyscan dvcs.deloittedigital.com.au >> ~/.ssh/known_hosts"
       - "composer install && composer build -- --publish"
     branches: "master"
     agents:
