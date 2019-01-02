@@ -440,14 +440,26 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "6f12728466ab69ce8068a62b971ee6f483a9570b"
+                    "reference": "27992569168653c2761b18db704779e9ff53be21"
                 },
-                "time": "2018-05-11T01:57:49+00:00",
+                "time": "2019-01-02T06:12:28+00:00",
                 "type": "drupal-theme",
                 "license": [
-                    "BSD-3-Clause"
+                    "proprietary"
                 ],
-                "description": "Base theme for QuaDrupal"
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
             },
             "dev-build-artefact": {
                 "name": "deloittedigital/air",
@@ -496,34 +508,6 @@
                     "BSD-3-Clause"
                 ],
                 "description": "Base theme for QuaDrupal"
-            },
-            "dev-feature-update-bitbucket-repositories": {
-                "name": "deloittedigital/air",
-                "version": "dev-feature-update-bitbucket-repositories",
-                "version_normalized": "dev-feature-update-bitbucket-repositories",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "0c032285ae610fef8d3ab09929762ab9c7869295"
-                },
-                "time": "2019-01-02T01:06:05+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for QuaDrupal",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
             },
             "dev-fix-git-ignore": {
                 "name": "deloittedigital/air",
@@ -761,11 +745,25 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
-                    "reference": "a96f214e7766e7091b07f800491332fef64e9837"
+                    "reference": "2e7173a51b87dd476ac11cbd1999fe724e444759"
                 },
-                "time": "2018-12-11T10:06:27+00:00",
+                "time": "2019-01-02T06:20:54+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal accordion."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Accordion widget for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
+                }
             },
             "dev-feature-add-rte": {
                 "name": "deloittedigital/qd_accordion",
@@ -779,33 +777,6 @@
                 "time": "2018-12-11T04:49:10+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
-            },
-            "dev-feature-update-bitbucket-repoisitories": {
-                "name": "deloittedigital/qd_accordion",
-                "version": "dev-feature-update-bitbucket-repoisitories",
-                "version_normalized": "dev-feature-update-bitbucket-repoisitories",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
-                    "reference": "d2993edaceb678da3736acd1b7e4aa100b48b21a"
-                },
-                "time": "2019-01-02T02:03:45+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "The best Drupal accordion by Deloitte Digital",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
-                }
             }
         },
         "deloittedigital/qd_alerts": {
@@ -1131,12 +1102,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "0daf7bd2989658dd445564ebb8df901c45c61640"
+                    "reference": "674161e7b8cb895fe38962da254d0498135a6728"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2019-01-02T03:53:37+00:00",
+                "time": "2019-01-02T06:31:12+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -1158,7 +1129,7 @@
                         "role": "Maintainer"
                     }
                 ],
-                "description": "The best of Drupal Child Menus by Deloitte Digital. Show child pages of the current page from the Drupal menu hierarchy.",
+                "description": "The Child Menu block type for Drupal by Deloitte Digital. Show links to children of the current page from the Drupal menu hierarchy.",
                 "support": {
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
                 }
@@ -1208,16 +1179,30 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git",
-                    "reference": "505bffdd5381f1cab0392447fc8e348da06b9c16"
+                    "reference": "cc7b0a9dfcbacd7d475aeee99192aac321e899a9"
                 },
-                "time": "2017-10-04T03:16:11+00:00",
+                "time": "2019-01-02T06:41:38+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-develop": "1.0.x-dev"
                     }
                 },
-                "description": "Module that provides download features."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Download features for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-download/browse"
+                }
             }
         },
         "deloittedigital/qd_event": {
