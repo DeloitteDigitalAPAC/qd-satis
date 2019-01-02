@@ -1539,11 +1539,25 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
-                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
+                    "reference": "b27f60bb0875a74eb5ed7ab85fcabb5b10fe487f"
                 },
-                "time": "2018-11-16T07:33:31+00:00",
+                "time": "2019-01-02T06:06:47+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal icon link."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Drupal hyperlinked icons by Deloitte Digital. Provides a content field for a hyperlink with an SVG icon.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-icon/browse"
+                }
             }
         },
         "deloittedigital/qd_media": {
