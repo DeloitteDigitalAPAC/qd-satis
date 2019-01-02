@@ -50,6 +50,10 @@
       "type": "vcs",
       "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-share-links.git"
     },
+    "qd_test": {
+      "type": "vcs",
+      "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-test.git"
+    },
     "qd-link-icon": {
       "type": "vcs",
       "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git"
