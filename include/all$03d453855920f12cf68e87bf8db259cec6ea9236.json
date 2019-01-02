@@ -7,7 +7,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "f56a59a9f148ac7c65f265439410e3c82bffeeef"
                 },
                 "time": "2017-06-22T12:00:16+00:00",
@@ -23,7 +23,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "16bf88ce29a343cff67d33b74fe499e8bff3cc71"
                 },
                 "time": "2017-06-22T23:37:18+00:00",
@@ -39,7 +39,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "30064d3ca4970b31df181c92ac8b2f1583adcac0"
                 },
                 "time": "2017-07-04T06:35:02+00:00",
@@ -55,7 +55,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "c9932edca9f1acc846d78e21d9f021b646f0aa8a"
                 },
                 "time": "2017-07-05T03:44:58+00:00",
@@ -71,7 +71,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "ff51b2525f0fa8b5a02478883a60d6b78f1e3268"
                 },
                 "time": "2017-07-06T04:32:32+00:00",
@@ -87,7 +87,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "a27b384458210016ba32794a996330b5a45e7a0f"
                 },
                 "time": "2017-07-06T06:07:43+00:00",
@@ -103,7 +103,7 @@
                 "version_normalized": "1.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "93e206c1072ee6d7692e19c7984407fc58de4175"
                 },
                 "time": "2017-08-01T02:56:48+00:00",
@@ -119,7 +119,7 @@
                 "version_normalized": "1.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "2e2ac0aba7c0c404871b9060487f4186f6889d82"
                 },
                 "time": "2017-08-09T05:16:43+00:00",
@@ -135,7 +135,7 @@
                 "version_normalized": "1.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "eb1a722cd6cb781ed96c55f3c538500e0d00c257"
                 },
                 "time": "2017-08-30T03:34:40+00:00",
@@ -151,7 +151,7 @@
                 "version_normalized": "1.0.13.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "a6d56b6a9a779f76850688d9df64c433352b44e8"
                 },
                 "time": "2017-08-30T03:51:00+00:00",
@@ -167,7 +167,7 @@
                 "version_normalized": "1.0.14.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "217f5716251165d420c6e40798365a43041edce4"
                 },
                 "time": "2017-08-30T03:54:45+00:00",
@@ -183,7 +183,7 @@
                 "version_normalized": "1.0.15.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "33d0113b8b6c1ce1df23fbe67a1fc7a92e5f1c3a"
                 },
                 "time": "2017-08-30T04:00:27+00:00",
@@ -199,7 +199,7 @@
                 "version_normalized": "1.0.16.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "24b0ed1c094d295da8b57b8ac1a62e6d20af4aef"
                 },
                 "time": "2017-10-08T22:20:48+00:00",
@@ -215,7 +215,7 @@
                 "version_normalized": "1.0.17.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "b1be9f99ee4c8de7e5cc0ec1b23c0a7a14bcab60"
                 },
                 "time": "2017-10-13T00:06:34+00:00",
@@ -231,7 +231,7 @@
                 "version_normalized": "1.0.18.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "9d197af913b21739fd0efff185ea12c90ec259be"
                 },
                 "time": "2017-10-15T22:10:18+00:00",
@@ -247,7 +247,7 @@
                 "version_normalized": "1.0.19.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "9f64a1c68a5795f1d754cd0c906c8b9b113ca820"
                 },
                 "time": "2017-10-23T03:35:38+00:00",
@@ -263,7 +263,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "0c4a4a60e2f1a5711ef64468652f85635cc0a52f"
                 },
                 "time": "2017-07-07T05:22:02+00:00",
@@ -279,7 +279,7 @@
                 "version_normalized": "1.0.20.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "93d34d2a7492f8821184bb77824a8ab25236e686"
                 },
                 "time": "2017-10-23T21:49:57+00:00",
@@ -295,7 +295,7 @@
                 "version_normalized": "1.0.21.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "45a0e9b4bf9215b56c2ad4d9b6a7f9da3dc9314e"
                 },
                 "time": "2017-10-30T04:08:02+00:00",
@@ -311,7 +311,7 @@
                 "version_normalized": "1.0.22.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "0e082159bc2a586701d29b8ddfc0ed3753def740"
                 },
                 "time": "2018-04-12T00:00:27+00:00",
@@ -327,7 +327,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "fd5be1af6203a00402073b6bac3ca3b940a3647e"
                 },
                 "time": "2017-07-10T00:15:53+00:00",
@@ -343,7 +343,7 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "3e681f9c3df3bffb92e688ce11e192cc70239540"
                 },
                 "time": "2017-07-10T05:30:22+00:00",
@@ -359,7 +359,7 @@
                 "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "90a7e85639386f8c71fe26338ebdee53e7deb48b"
                 },
                 "time": "2017-07-11T01:02:00+00:00",
@@ -375,7 +375,7 @@
                 "version_normalized": "1.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "9ea74044783dfc0b2ede19a328bc0d7a759ac635"
                 },
                 "time": "2017-07-11T01:08:58+00:00",
@@ -391,7 +391,7 @@
                 "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "a4f6c150b085bd86e2168a313eaf1554bb21dbc8"
                 },
                 "time": "2017-07-13T00:40:57+00:00",
@@ -407,7 +407,7 @@
                 "version_normalized": "1.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "01b1c0579bd424e2e3488ec362242318a42055dd"
                 },
                 "time": "2017-07-16T23:12:08+00:00",
@@ -423,7 +423,7 @@
                 "version_normalized": "1.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "f84d55faf2fcebc897b98a91979f4e1a84dc37ec"
                 },
                 "time": "2017-07-31T05:52:40+00:00",
@@ -439,10 +439,10 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
-                    "reference": "14b8594366902952b372613e05211b86aeb32b63"
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "6f12728466ab69ce8068a62b971ee6f483a9570b"
                 },
-                "time": "2018-04-11T07:34:46+00:00",
+                "time": "2018-05-11T01:57:49+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "BSD-3-Clause"
@@ -455,7 +455,7 @@
                 "version_normalized": "dev-build-artefact",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "0e082159bc2a586701d29b8ddfc0ed3753def740"
                 },
                 "time": "2018-04-12T00:00:27+00:00",
@@ -471,42 +471,10 @@
                 "version_normalized": "dev-feature-add-manual-deploy",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "a308a37f082f72b4041c3df769e82ce190437434"
                 },
                 "time": "2018-04-12T00:11:59+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "description": "Base theme for QuaDrupal"
-            },
-            "dev-feature-drupal-core-media-fixes": {
-                "name": "deloittedigital/air",
-                "version": "dev-feature-drupal-core-media-fixes",
-                "version_normalized": "dev-feature-drupal-core-media-fixes",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
-                    "reference": "1b5970440d8dbacca85e65d4a17dc17bae64f6d2"
-                },
-                "time": "2018-07-18T23:48:47+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "description": "Base theme for QuaDrupal"
-            },
-            "dev-feature-fix-call-to-member-function-gettype": {
-                "name": "deloittedigital/air",
-                "version": "dev-feature-fix-call-to-member-function-gettype",
-                "version_normalized": "dev-feature-fix-call-to-member-function-gettype",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
-                    "reference": "0e32b80b65d846b568c248cbe3633d04087f693c"
-                },
-                "time": "2018-05-11T01:57:49+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "BSD-3-Clause"
@@ -519,7 +487,7 @@
                 "version_normalized": "dev-feature-starter-kit",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "f2953c4df07614a7f6e8379be3c66412042fa545"
                 },
                 "time": "2018-03-05T22:49:35+00:00",
@@ -529,13 +497,41 @@
                 ],
                 "description": "Base theme for QuaDrupal"
             },
+            "dev-feature-update-bitbucket-repositories": {
+                "name": "deloittedigital/air",
+                "version": "dev-feature-update-bitbucket-repositories",
+                "version_normalized": "dev-feature-update-bitbucket-repositories",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "0c032285ae610fef8d3ab09929762ab9c7869295"
+                },
+                "time": "2019-01-02T01:06:05+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for QuaDrupal",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "dev-fix-git-ignore": {
                 "name": "deloittedigital/air",
                 "version": "dev-fix-git-ignore",
                 "version_normalized": "dev-fix-git-ignore",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/air-theme.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
                     "reference": "d6d6ada7bad48faecfc026a0555568762e40d6d6"
                 },
                 "time": "2018-04-11T08:05:40+00:00",
@@ -553,7 +549,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "74a2f4368f069c3390bc69bbf483a4ba26facbcf"
                 },
                 "time": "2018-01-16T09:42:38+00:00",
@@ -566,7 +562,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "4e4d90cd84c38c7b3119e7f9515aeb2d73d600c6"
                 },
                 "time": "2018-01-22T23:55:01+00:00",
@@ -579,7 +575,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "2d530a720f01abe93120ba987eeeff88b1a4e9bc"
                 },
                 "time": "2018-01-24T04:03:41+00:00",
@@ -592,7 +588,7 @@
                 "version_normalized": "0.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "1c62a2f73087cbd7224a4cc856925efbbf558e8f"
                 },
                 "time": "2018-02-15T02:21:59+00:00",
@@ -605,7 +601,7 @@
                 "version_normalized": "0.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "85b6b7f6352e2dbde66d8455689f1e50654a3279"
                 },
                 "time": "2018-04-18T01:23:52+00:00",
@@ -618,7 +614,7 @@
                 "version_normalized": "0.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "836f9caa6e0b61a4c16bc280e4233eab650837bd"
                 },
                 "time": "2018-04-27T06:31:00+00:00",
@@ -631,7 +627,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "d9701616ce8c2357097c26a0c8e49991caac8d97"
                 },
                 "time": "2018-11-22T03:34:13+00:00",
@@ -644,10 +640,23 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
                     "reference": "b65830415c94c9e68a4fb7f4a2e6e66aa47797c7"
                 },
                 "time": "2018-12-07T02:45:54+00:00",
+                "type": "drupal-module",
+                "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
+            },
+            "1.0.2": {
+                "name": "deloittedigital/google_maps_overlays",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
+                    "reference": "66330c03ca146f8ed26ea3d55e9dbfedca6b2257"
+                },
+                "time": "2018-12-12T05:34:09+00:00",
                 "type": "drupal-module",
                 "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
             },
@@ -657,12 +666,26 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/google-maps-overlays.git",
-                    "reference": "b65830415c94c9e68a4fb7f4a2e6e66aa47797c7"
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/google-maps-overlays.git",
+                    "reference": "07fcb314b1265e52c07f3b188e10081992057357"
                 },
-                "time": "2018-12-07T02:45:54+00:00",
+                "time": "2019-01-02T03:22:29+00:00",
                 "type": "drupal-module",
-                "description": "This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring them, and a formatter for displaying them to end users."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Google Maps Overlays for Drupal by Deloitte Digital. This module supports polygons, lines and markers on a Google Map. It provides a widget for authoring and a formatter for display.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/google-maps-overlays/browse"
+                }
             }
         },
         "deloittedigital/qd_accordion": {
@@ -672,7 +695,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "9f17623ebf2e4dfbc2e2139fbd2faebf1c89ae45"
                 },
                 "time": "2018-11-08T01:16:54+00:00",
@@ -685,7 +708,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "df7fa701aa084717f18d8f812becff289303654d"
                 },
                 "time": "2018-11-08T01:42:19+00:00",
@@ -698,7 +721,7 @@
                 "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "44b8c5e9dcc40b3299d0ddab202818d6d25052d4"
                 },
                 "time": "2018-11-08T05:59:50+00:00",
@@ -711,7 +734,7 @@
                 "version_normalized": "1.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "96672c4d939edf6fd539c01a70f3b4f034e5fd51"
                 },
                 "time": "2018-11-08T06:39:06+00:00",
@@ -724,7 +747,7 @@
                 "version_normalized": "1.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "a96f214e7766e7091b07f800491332fef64e9837"
                 },
                 "time": "2018-12-11T10:06:27+00:00",
@@ -737,7 +760,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "a96f214e7766e7091b07f800491332fef64e9837"
                 },
                 "time": "2018-12-11T10:06:27+00:00",
@@ -750,12 +773,39 @@
                 "version_normalized": "dev-feature-add-rte",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-accordion.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
                     "reference": "996ed68dda2ba7e047f5bb5d4c7be0cdbd2f19e2"
                 },
                 "time": "2018-12-11T04:49:10+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal accordion."
+            },
+            "dev-feature-update-bitbucket-repoisitories": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "dev-feature-update-bitbucket-repoisitories",
+                "version_normalized": "dev-feature-update-bitbucket-repoisitories",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
+                    "reference": "d2993edaceb678da3736acd1b7e4aa100b48b21a"
+                },
+                "time": "2019-01-02T02:03:45+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best Drupal accordion by Deloitte Digital",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
+                }
             }
         },
         "deloittedigital/qd_alerts": {
@@ -765,7 +815,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-alerts.git",
                     "reference": "972efa6bd98a0bbe5cbaa22d73d73d686054093e"
                 },
                 "time": "2017-10-04T03:30:54+00:00",
@@ -783,7 +833,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-alerts.git",
                     "reference": "9bf758121484f0fc15434e2802f1475a98c58ec4"
                 },
                 "time": "2018-10-26T05:21:05+00:00",
@@ -811,7 +861,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-alerts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-alerts.git",
                     "reference": "9bf758121484f0fc15434e2802f1475a98c58ec4"
                 },
                 "time": "2018-10-26T05:21:05+00:00",
@@ -841,7 +891,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "c64a7c3405f3f577f9397d54ed5c16e89f38f629"
                 },
                 "time": "2017-08-01T00:27:50+00:00",
@@ -854,7 +904,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "16637a217c056dda4aa47afc29431a1bdb9a5c13"
                 },
                 "time": "2017-08-10T01:28:31+00:00",
@@ -867,7 +917,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "60b270317c27ae87fc275e46a60a9e27e5473cd6"
                 },
                 "time": "2017-08-31T04:40:53+00:00",
@@ -880,7 +930,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "a5b25f7b588c4b764ddb5ec5f64e7eeb0af345c1"
                 },
                 "require-dev": {
@@ -905,7 +955,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "167d0c4268b0c703ee0abb4341a3337123e121e3"
                 },
                 "require-dev": {
@@ -930,7 +980,7 @@
                 "version_normalized": "0.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "d45922cef51628d3f369fb3df5c7583ed7b1b9ec"
                 },
                 "require-dev": {
@@ -955,7 +1005,7 @@
                 "version_normalized": "0.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "2d6e463b8e816910fb0b97a1078880a65398a622"
                 },
                 "require-dev": {
@@ -980,7 +1030,7 @@
                 "version_normalized": "0.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "eea034db0a10caecc59342d88d05e58fd66d4f36"
                 },
                 "require-dev": {
@@ -1005,7 +1055,7 @@
                 "version_normalized": "0.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "f61fdedc2f308b326857eafb9c6ecc3cadd0589c"
                 },
                 "require-dev": {
@@ -1030,7 +1080,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "f61fdedc2f308b326857eafb9c6ecc3cadd0589c"
                 },
                 "require-dev": {
@@ -1055,7 +1105,7 @@
                 "version_normalized": "dev-feature-log-debug-information",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-childmenu.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
                     "reference": "4d6c26e9992fdce48abd1b2f9a399362cc923873"
                 },
                 "require-dev": {
@@ -1073,6 +1123,45 @@
                     ]
                 },
                 "description": "Allow to show child pages from the current page"
+            },
+            "dev-feature-update-bitbucket-repositories": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "dev-feature-update-bitbucket-repositories",
+                "version_normalized": "dev-feature-update-bitbucket-repositories",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "0daf7bd2989658dd445564ebb8df901c45c61640"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2019-01-02T03:53:37+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Drupal Child Menus by Deloitte Digital. Show child pages of the current page from the Drupal menu hierarchy.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
+                }
             }
         },
         "deloittedigital/qd_download": {
@@ -1082,7 +1171,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-download.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git",
                     "reference": "505bffdd5381f1cab0392447fc8e348da06b9c16"
                 },
                 "time": "2017-10-04T03:16:11+00:00",
@@ -1100,7 +1189,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-download.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git",
                     "reference": "505bffdd5381f1cab0392447fc8e348da06b9c16"
                 },
                 "time": "2017-10-04T03:16:11+00:00",
@@ -1118,7 +1207,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-download.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git",
                     "reference": "505bffdd5381f1cab0392447fc8e348da06b9c16"
                 },
                 "time": "2017-10-04T03:16:11+00:00",
@@ -1138,7 +1227,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "7740ca7271c9c75315b325de4dde6f1f2d3de9ae"
                 },
                 "require": {
@@ -1155,7 +1244,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "e7c79dd292a3a174cd2c0e273b8bbe17960dcae5"
                 },
                 "require": {
@@ -1172,7 +1261,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "4b55f8d17543c01bd8cb5f832067e65d93e93991"
                 },
                 "require": {
@@ -1189,7 +1278,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "ccc51393c1822a4c887ca8b45bbaa5d529d8863a"
                 },
                 "require": {
@@ -1206,7 +1295,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "1d2f132503f0565af2b052b52656068f5049aedd"
                 },
                 "require": {
@@ -1223,7 +1312,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "cbd35c14f0595790651f97128a3a1a0921115f8b"
                 },
                 "require": {
@@ -1240,7 +1329,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "cbd35c14f0595790651f97128a3a1a0921115f8b"
                 },
                 "require": {
@@ -1257,7 +1346,7 @@
                 "version_normalized": "dev-feature-google-map-fix",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-event.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
                     "reference": "a8a2c6b0369039e45ccdde05b7e4cbf9addd3093"
                 },
                 "require": {
@@ -1276,7 +1365,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "19e65a94be2aa2b9723c6c394cd829c82946d17a"
                 },
                 "time": "2017-07-24T01:33:15+00:00",
@@ -1289,7 +1378,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "68e94b20f319f5e27c936d744016e03edfc09394"
                 },
                 "time": "2017-07-24T02:04:36+00:00",
@@ -1302,7 +1391,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "e784f505632c2feb185a2744c2ec10017ee625ee"
                 },
                 "time": "2017-07-25T05:01:27+00:00",
@@ -1315,7 +1404,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "1332a35e51934f2d6b74d54abbe1d67463c68441"
                 },
                 "time": "2017-07-25T23:00:37+00:00",
@@ -1328,7 +1417,7 @@
                 "version_normalized": "0.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "165674eae09d4e97fd7d9b2603743eef857280ee"
                 },
                 "time": "2017-07-26T05:43:38+00:00",
@@ -1341,7 +1430,7 @@
                 "version_normalized": "0.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "7d9913998cfd47e8eea9e00df168f945ab318f2f"
                 },
                 "time": "2017-08-10T05:46:56+00:00",
@@ -1354,7 +1443,7 @@
                 "version_normalized": "0.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "3f78a425f41ffb7812cb327967c5c691e618e2b0"
                 },
                 "time": "2017-08-25T04:49:40+00:00",
@@ -1367,7 +1456,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-layouts.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
                     "reference": "b40cc6506a5925ccbfc6fe79597f32f8a192bace"
                 },
                 "time": "2018-03-16T02:23:24+00:00",
@@ -1382,7 +1471,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-description.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
                     "reference": "7c6495e7f50c0a770722e4c3466c0e50dc7cf94e"
                 },
                 "time": "2017-07-24T01:31:39+00:00",
@@ -1395,7 +1484,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-description.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
                     "reference": "fdb412ac46a86f8902a8e225db81cd6fdb7a7850"
                 },
                 "time": "2017-08-02T00:44:22+00:00",
@@ -1408,12 +1497,53 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-link-description.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
                     "reference": "fdb412ac46a86f8902a8e225db81cd6fdb7a7850"
                 },
                 "time": "2017-08-02T00:44:22+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal links feature."
+            }
+        },
+        "deloittedigital/qd_link_icon": {
+            "1.2.0": {
+                "name": "deloittedigital/qd_link_icon",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
+                    "reference": "090cde858d3c27c06d28af6c6303d134b779bc8f"
+                },
+                "time": "2018-11-16T03:37:25+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal icon link."
+            },
+            "1.2.1": {
+                "name": "deloittedigital/qd_link_icon",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
+                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
+                },
+                "time": "2018-11-16T07:33:31+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal icon link."
+            },
+            "dev-master": {
+                "name": "deloittedigital/qd_link_icon",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
+                    "reference": "f96debf8a175a145dbe933a220d289970f2cc01d"
+                },
+                "time": "2018-11-16T07:33:31+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal icon link."
             }
         },
         "deloittedigital/qd_media": {
@@ -1423,7 +1553,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "828bd88f8104f179d40d8c4390ce5ac52c4a6708"
                 },
                 "time": "2017-08-18T00:21:25+00:00",
@@ -1436,7 +1566,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "6aa335b66115bcf18bd3cc6b42ae03de394e6b96"
                 },
                 "time": "2017-08-17T01:39:45+00:00",
@@ -1449,7 +1579,7 @@
                 "version_normalized": "0.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "c341f5c51d1c9ba5dd0129129b325439f353bdae"
                 },
                 "time": "2017-08-17T03:39:28+00:00",
@@ -1462,7 +1592,7 @@
                 "version_normalized": "0.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "80c9d0f0cb01ed4afd534eb8b0e2d5f81e905637"
                 },
                 "time": "2017-08-17T05:02:59+00:00",
@@ -1475,7 +1605,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "f7d3033414351229b99003315d1de10b500b4f7f"
                 },
                 "time": "2017-08-17T12:10:26+00:00",
@@ -1488,7 +1618,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "bdae3bad79d92522adf17db62f3703c9b93b5adf"
                 },
                 "time": "2017-08-20T22:50:57+00:00",
@@ -1501,7 +1631,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "d1e82ad533dc572e5904178e2bb3dc317ccc1982"
                 },
                 "time": "2017-08-21T00:22:57+00:00",
@@ -1514,7 +1644,7 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "29f020d14d208a96fffa412c2c714f0cc8160236"
                 },
                 "time": "2017-09-04T02:32:20+00:00",
@@ -1527,7 +1657,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "d0845896f41eccb3c58b0151288b2fd05720fb9d"
                 },
                 "require": {
@@ -1563,7 +1693,7 @@
                 "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "d0845896f41eccb3c58b0151288b2fd05720fb9d"
                 },
                 "require": {
@@ -1599,7 +1729,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd_media.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
                     "reference": "d01eacfe9485deee4a732f1756f3d67a08ed2a02"
                 },
                 "require": {
@@ -1642,7 +1772,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "bf999a31253608126c42cc9602057c3aa46bf2ce"
                 },
                 "time": "2017-07-19T03:30:38+00:00",
@@ -1655,7 +1785,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "57ffc470d255b51e72d0bf782a925bb2f438137c"
                 },
                 "time": "2017-07-24T03:25:56+00:00",
@@ -1668,7 +1798,7 @@
                 "version_normalized": "0.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "abab612e6db3ed9f48dc2804b93d71cf56ba2728"
                 },
                 "require-dev": {
@@ -1693,7 +1823,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "a28a3746e77758a17789b8c8c43409624f2e9f26"
                 },
                 "require-dev": {
@@ -1718,7 +1848,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "ef25f85601c6e42a68dd2347178ed903766a5cb0"
                 },
                 "require-dev": {
@@ -1743,7 +1873,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-news.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
                     "reference": "ef25f85601c6e42a68dd2347178ed903766a5cb0"
                 },
                 "require-dev": {
@@ -1770,7 +1900,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-photo-gallery.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-photo-gallery.git",
                     "reference": "6fcde7cda3ae7fd4d4a2d0a76be5d327a1cd27f6"
                 },
                 "time": "2018-10-26T05:04:33+00:00",
@@ -1799,7 +1929,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-photo-gallery.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-photo-gallery.git",
                     "reference": "6fcde7cda3ae7fd4d4a2d0a76be5d327a1cd27f6"
                 },
                 "time": "2018-10-26T05:04:33+00:00",
@@ -1830,7 +1960,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
                     "reference": "8b0ced11b4cea2f968eb082de33dccff91583c79"
                 },
                 "require": {
@@ -1849,7 +1979,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
                     "reference": "6afc77cd019aabdd5eb6aac2196ebc1b46c3417b"
                 },
                 "require": {
@@ -1868,7 +1998,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-security.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
                     "reference": "6afc77cd019aabdd5eb6aac2196ebc1b46c3417b"
                 },
                 "require": {
@@ -1889,7 +2019,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-share-links.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-share-links.git",
                     "reference": "fa55fa37631ca0754e70f92db061ce7910b514a9"
                 },
                 "require-dev": {
@@ -1914,7 +2044,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-share-links.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-share-links.git",
                     "reference": "fa55fa37631ca0754e70f92db061ce7910b514a9"
                 },
                 "require-dev": {
@@ -1934,6 +2064,47 @@
                 "description": "Share links for Quadrupal"
             }
         },
+        "deloittedigital/qd_test": {
+            "dev-master": {
+                "name": "deloittedigital/qd_test",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-test.git",
+                    "reference": "3521e31658f0f8ea657870b99d3166cea4c25b32"
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.5@dev"
+                },
+                "time": "2017-08-14T09:03:53+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "DeloitteDigital\\QdTest\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "DeloitteDigital\\QdTest\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Test package for QD modules"
+            }
+        },
         "deloittedigital/qd_webform": {
             "0.0.1": {
                 "name": "deloittedigital/qd_webform",
@@ -1941,7 +2112,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-webform.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
                     "reference": "cfd4457e56ad67a823a6f63366cdf4fa6818e1da"
                 },
                 "require": {
@@ -1965,7 +2136,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/qd-webform.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
                     "reference": "52411bc198534a1f4a3c5d59759e0cf6c68c3673"
                 },
                 "require": {
@@ -1991,7 +2162,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "b4e3683c732536e13f30e016fe49ec3de15bf226"
                 },
                 "require": {
@@ -2045,7 +2216,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "20ddecec2ced17f3802eb1d429d2dd0f520e20ee"
                 },
                 "require": {
@@ -2098,7 +2269,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "5778ebd5c933ca6b9c15424ace0dc5d6cb74d5c2"
                 },
                 "require": {
@@ -2156,7 +2327,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "3bad4fde59c22adcca892f8ecda6730033fc3803"
                 },
                 "require": {
@@ -2242,7 +2413,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "1640f37d3a48802ffef1adb85f7c433d979402a1"
                 },
                 "require": {
@@ -2324,7 +2495,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "1640f37d3a48802ffef1adb85f7c433d979402a1"
                 },
                 "require": {
@@ -2406,7 +2577,7 @@
                 "version_normalized": "dev-adding-dq-breadcrumbs",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "81b51096d222c03e7888682ec6e7b821e165c57a"
                 },
                 "require": {
@@ -2458,7 +2629,7 @@
                 "version_normalized": "dev-chopper_deloittecom.au/composer.json-1540530563579",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "6510c6ddf108cfcf7a2c64b76be3d3c1253f5158"
                 },
                 "require": {
@@ -2542,7 +2713,7 @@
                 "version_normalized": "dev-feature-8.4",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "7cc55978372eec9b8b5e5eeeecc576b5ac0da128"
                 },
                 "require": {
@@ -2596,7 +2767,7 @@
                 "version_normalized": "dev-feature-remove-ddigital-theme-install",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "4fbf3ec762c8d8b5cc0311a811dddf3f76bf7cdb"
                 },
                 "require": {
@@ -2678,7 +2849,7 @@
                 "version_normalized": "dev-feature-unrestrist-dependencies",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "98e71ea201159b6ca1cbf98a47ee7a60058cf912"
                 },
                 "require": {
@@ -2730,7 +2901,7 @@
                 "version_normalized": "dev-feature-update-8.6-fixes",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "0063358d47463c99e2459a4dfb26909060faaf66"
                 },
                 "require": {
@@ -2816,7 +2987,7 @@
                 "version_normalized": "dev-moderation-sidebar",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "f4df77f99af711fcbacaa4cac86ec95d05390f33"
                 },
                 "require": {
@@ -2903,7 +3074,7 @@
                 "version_normalized": "dev-qd-new",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
                     "reference": "7a74f87fe2906db8778f08613592f4daa4791794"
                 },
                 "require": {
@@ -2982,7 +3153,7 @@
                 "version_normalized": "0.9.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "0c688a612cc19ce57a810df8719af622aed3461a"
                 },
                 "require": {
@@ -3057,7 +3228,7 @@
                 "version_normalized": "0.9.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "e1eb1d877a3465b571a0c54ea286a19906e4bc8b"
                 },
                 "require": {
@@ -3132,7 +3303,7 @@
                 "version_normalized": "0.9.2.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "55ce6b0e59a500a7c87beda3d5fdb480d2d0c4ec"
                 },
                 "require": {
@@ -3207,7 +3378,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "eadf72429e4d0140f47b32f9f07680fa50b2c555"
                 },
                 "require": {
@@ -3283,7 +3454,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "16b2243a26679aaf8ad9db54a3790ed838f77e47"
                 },
                 "require": {
@@ -3359,7 +3530,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "06317b3e902b522d0d1eb39b78756c26b32e3a0b"
                 },
                 "require": {
@@ -3435,7 +3606,7 @@
                 "version_normalized": "dev-feature-add-buildkite-agent",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "6d2a913b06c9acc17d9305b2a85c99f79bb89355"
                 },
                 "require": {
@@ -3510,7 +3681,7 @@
                 "version_normalized": "dev-feature-fix-install-profile",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "a7aa9bb380784844518a3de63b329990618b5252"
                 },
                 "require": {
@@ -3576,7 +3747,7 @@
                 "version_normalized": "dev-google-map-overlay-version-fix",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "1f8ebaae1b7ff798d9c7f7651cf58d675bbfe28d"
                 },
                 "require": {
@@ -3652,7 +3823,7 @@
                 "version_normalized": "dev-package.json",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "af422eba7c1f2058650682a3e7d823b4f4c284ef"
                 },
                 "require": {
@@ -3723,7 +3894,7 @@
                 "version_normalized": "dev-test-setup",
                 "source": {
                     "type": "git",
-                    "url": "ssh://git@hub.deloittedigital.com.au:7999/dru/quadrupal-build.git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
                     "reference": "2cec7d6c4bf947baed81b2bd53fcb58b7dbf56e2"
                 },
                 "require": {
