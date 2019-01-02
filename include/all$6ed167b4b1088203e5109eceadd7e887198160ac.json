@@ -1315,15 +1315,29 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
-                    "reference": "cbd35c14f0595790651f97128a3a1a0921115f8b"
+                    "reference": "6d86145a66e819837327d856f8821bf6089e92cb"
                 },
                 "require": {
                     "deloittedigital/google_maps_overlays": "^0.0.8",
                     "drupal/address": "^1.1"
                 },
-                "time": "2018-10-24T05:11:06+00:00",
+                "time": "2019-01-02T06:49:58+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal event feature."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Event content authoring for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-event/browse"
+                }
             },
             "dev-feature-google-map-fix": {
                 "name": "deloittedigital/qd_event",
