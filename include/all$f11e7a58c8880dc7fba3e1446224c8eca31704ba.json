@@ -1456,11 +1456,25 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
-                    "reference": "b40cc6506a5925ccbfc6fe79597f32f8a192bace"
+                    "reference": "ac51e7e19afcd08e201688c0c375108d004913fe"
                 },
-                "time": "2018-03-16T02:23:24+00:00",
+                "time": "2019-01-02T06:59:00+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal layouts feature."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Layouts for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-layouts/browse"
+                }
             }
         },
         "deloittedigital/qd_link_description": {
