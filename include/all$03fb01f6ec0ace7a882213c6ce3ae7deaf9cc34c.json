@@ -1079,62 +1079,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "f61fdedc2f308b326857eafb9c6ecc3cadd0589c"
+                    "reference": "c8fa730ba1a37184e1067d5bfe91a969e5145b8d"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2018-09-07T02:13:06+00:00",
-                "type": "drupal-module",
-                "scripts": {
-                    "build": [
-                        "@composer install -n --prefer-dist",
-                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
-                    ],
-                    "test": [
-                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
-                    ]
-                },
-                "description": "Allow to show child pages from the current page"
-            },
-            "dev-feature-log-debug-information": {
-                "name": "deloittedigital/qd_childmenu",
-                "version": "dev-feature-log-debug-information",
-                "version_normalized": "dev-feature-log-debug-information",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "4d6c26e9992fdce48abd1b2f9a399362cc923873"
-                },
-                "require-dev": {
-                    "deloittedigital/qd_test": "^1.0"
-                },
-                "time": "2018-09-07T02:10:13+00:00",
-                "type": "drupal-module",
-                "scripts": {
-                    "build": [
-                        "@composer install -n --prefer-dist",
-                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
-                    ],
-                    "test": [
-                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
-                    ]
-                },
-                "description": "Allow to show child pages from the current page"
-            },
-            "dev-feature-update-bitbucket-repositories": {
-                "name": "deloittedigital/qd_childmenu",
-                "version": "dev-feature-update-bitbucket-repositories",
-                "version_normalized": "dev-feature-update-bitbucket-repositories",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "674161e7b8cb895fe38962da254d0498135a6728"
-                },
-                "require-dev": {
-                    "deloittedigital/qd_test": "^1.0"
-                },
-                "time": "2019-01-02T06:31:12+00:00",
+                "time": "2019-01-30T04:25:24+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -1160,6 +1110,31 @@
                 "support": {
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
                 }
+            },
+            "dev-feature-log-debug-information": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "dev-feature-log-debug-information",
+                "version_normalized": "dev-feature-log-debug-information",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "4d6c26e9992fdce48abd1b2f9a399362cc923873"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2018-09-07T02:10:13+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Allow to show child pages from the current page"
             }
         },
         "deloittedigital/qd_download": {
@@ -3578,14 +3553,14 @@
                 ],
                 "description": "Template for Deloitte Drupal 8 sites built with BLT."
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "deloittedigital/quadrupal-build",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
-                    "reference": "06317b3e902b522d0d1eb39b78756c26b32e3a0b"
+                    "reference": "16892ed0654d92146e6d0597af33062bf2c3b644"
                 },
                 "require": {
                     "acquia/blt": "^9.2.0",
@@ -3596,7 +3571,159 @@
                     "drupal/devel": "^1.2",
                     "geerlingguy/drupal-vm": "~4.3"
                 },
-                "time": "2018-10-29T04:05:36+00:00",
+                "time": "2019-02-07T00:15:12+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "1.2.3": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
+                    "reference": "aafdd297e7b8fb3f2211252b202401d6570dbc88"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2019-02-07T01:48:36+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "dev-master": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
+                    "reference": "aafdd297e7b8fb3f2211252b202401d6570dbc88"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2019-02-07T01:48:36+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
@@ -3793,6 +3920,82 @@
                         "replace": true
                     }
                 },
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "dev-feature-update-build-kite": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-feature-update-build-kite",
+                "version_normalized": "dev-feature-update-build-kite",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
+                    "reference": "47c9b2a010afdc346246762a8fe3fbd346a0dbff"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2019-02-07T00:17:06+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
                 "description": "Template for Deloitte Drupal 8 sites built with BLT."
             },
             "dev-google-map-overlay-version-fix": {
