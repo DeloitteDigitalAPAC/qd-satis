@@ -3922,6 +3922,82 @@
                 },
                 "description": "Template for Deloitte Drupal 8 sites built with BLT."
             },
+            "dev-feature-refactor": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-feature-refactor",
+                "version_normalized": "dev-feature-refactor",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
+                    "reference": "83e91f8afb89c8d4ce7ebe2efd47d9ab8c6a4b77"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2019-02-12T03:01:35+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
             "dev-feature-update-build-kite": {
                 "name": "deloittedigital/quadrupal-build",
                 "version": "dev-feature-update-build-kite",
