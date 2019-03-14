@@ -321,6 +321,34 @@
                 ],
                 "description": "Base theme for QuaDrupal"
             },
+            "v1.0.23": {
+                "name": "deloittedigital/air",
+                "version": "v1.0.23",
+                "version_normalized": "1.0.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "e51a180069d1733c2deefb3bc5ee349770783ef1"
+                },
+                "time": "2019-03-14T03:30:24+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "v1.0.3": {
                 "name": "deloittedigital/air",
                 "version": "v1.0.3",
@@ -440,9 +468,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "27992569168653c2761b18db704779e9ff53be21"
+                    "reference": "d9db2d856f2ac0a290fe64dab03e1e5d5de56cd0"
                 },
-                "time": "2019-01-02T06:12:28+00:00",
+                "time": "2019-03-14T00:54:40+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
@@ -468,14 +496,26 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "0e082159bc2a586701d29b8ddfc0ed3753def740"
+                    "reference": "e51a180069d1733c2deefb3bc5ee349770783ef1"
                 },
-                "time": "2018-04-12T00:00:27+00:00",
+                "time": "2019-03-14T03:30:24+00:00",
                 "type": "drupal-theme",
                 "license": [
-                    "BSD-3-Clause"
+                    "proprietary"
                 ],
-                "description": "Base theme for QuaDrupal"
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
             },
             "dev-feature-add-manual-deploy": {
                 "name": "deloittedigital/air",
@@ -1684,6 +1724,42 @@
                 "name": "deloittedigital/qd_media",
                 "version": "1.2.0",
                 "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
+                    "reference": "d0845896f41eccb3c58b0151288b2fd05720fb9d"
+                },
+                "require": {
+                    "acquia/lightning": "^2.2.9||^3.0",
+                    "drupal/core": "^8.4.6",
+                    "drupal/duration_field": "^1.6",
+                    "drupal/field_group": "^3.0@beta",
+                    "drupal/media_entity_soundcloud": "2.x-dev"
+                },
+                "time": "2018-08-17T01:56:36+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Quadrupal media is the best of Drupal media by Deloitte Digital",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd_media/browse",
+                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
+            "2.0.0": {
+                "name": "deloittedigital/qd_media",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
