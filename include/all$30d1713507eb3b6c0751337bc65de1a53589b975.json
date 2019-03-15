@@ -1756,42 +1756,6 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
-            "2.0.0": {
-                "name": "deloittedigital/qd_media",
-                "version": "2.0.0",
-                "version_normalized": "2.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "d0845896f41eccb3c58b0151288b2fd05720fb9d"
-                },
-                "require": {
-                    "acquia/lightning": "^2.2.9||^3.0",
-                    "drupal/core": "^8.4.6",
-                    "drupal/duration_field": "^1.6",
-                    "drupal/field_group": "^3.0@beta",
-                    "drupal/media_entity_soundcloud": "2.x-dev"
-                },
-                "time": "2018-08-17T01:56:36+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Quadrupal media is the best of Drupal media by Deloitte Digital",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd_media/browse",
-                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
             "2.x-dev": {
                 "name": "deloittedigital/qd_media",
                 "version": "2.x-dev",
