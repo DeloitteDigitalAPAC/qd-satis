@@ -1112,6 +1112,38 @@
                 },
                 "description": "Allow to show child pages from the current page"
             },
+            "1.0.0": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "7dfa7dcf96a6f4319dbcda54cf3956a847ab5710"
+                },
+                "time": "2019-03-20T00:58:58+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Child Menu block type for Drupal by Deloitte Digital. Show links to children of the current page from the Drupal menu hierarchy.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_childmenu",
                 "version": "dev-master",
@@ -1119,21 +1151,14 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "c8fa730ba1a37184e1067d5bfe91a969e5145b8d"
+                    "reference": "7dfa7dcf96a6f4319dbcda54cf3956a847ab5710"
                 },
-                "require-dev": {
-                    "deloittedigital/qd_test": "^1.0"
-                },
-                "time": "2019-01-30T04:25:24+00:00",
+                "time": "2019-03-20T00:58:58+00:00",
                 "type": "drupal-module",
-                "scripts": {
-                    "build": [
-                        "@composer install -n --prefer-dist",
-                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
-                    ],
-                    "test": [
-                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
-                    ]
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
                 },
                 "license": [
                     "proprietary"
@@ -1573,6 +1598,45 @@
                 "type": "drupal-module",
                 "description": "Quadrupal links feature."
             },
+            "1.0.0": {
+                "name": "deloittedigital/qd_link_description",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
+                    "reference": "d3667d9b74345b0530594945b4679548b5a61e74"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-03-20T04:08:58+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides a Drupal Link description field to author hyperlinks with an associated description.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-description/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_link_description",
                 "version": "dev-master",
@@ -1580,11 +1644,76 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
-                    "reference": "fdb412ac46a86f8902a8e225db81cd6fdb7a7850"
+                    "reference": "d3667d9b74345b0530594945b4679548b5a61e74"
                 },
-                "time": "2017-08-02T00:44:22+00:00",
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-03-20T04:08:58+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal links feature."
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides a Drupal Link description field to author hyperlinks with an associated description.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-description/browse"
+                }
+            },
+            "dev-feature-DDDP-127-stable-module-with-tests": {
+                "name": "deloittedigital/qd_link_description",
+                "version": "dev-feature-DDDP-127-stable-module-with-tests",
+                "version_normalized": "dev-feature-DDDP-127-stable-module-with-tests",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
+                    "reference": "d3667d9b74345b0530594945b4679548b5a61e74"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-03-20T04:08:58+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Provides a Drupal Link description field to author hyperlinks with an associated description.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-description/browse"
+                }
             }
         },
         "deloittedigital/qd_link_icon": {
