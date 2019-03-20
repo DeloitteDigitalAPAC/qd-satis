@@ -1516,6 +1516,38 @@
                 "type": "drupal-module",
                 "description": "Quadrupal layouts feature."
             },
+            "1.0.x-dev": {
+                "name": "deloittedigital/qd_layouts",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
+                    "reference": "6b92fea14a125e1a05f0ad0380862b1418bbf152"
+                },
+                "time": "2019-03-20T05:13:07+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Layouts for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-layouts/browse"
+                }
+            },
             "1.2.0": {
                 "name": "deloittedigital/qd_layouts",
                 "version": "1.2.0",
@@ -1550,10 +1582,15 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
-                    "reference": "ac51e7e19afcd08e201688c0c375108d004913fe"
+                    "reference": "7a8f4e852900543a1ca6ec69dd1296023a0cd2d6"
                 },
-                "time": "2019-01-02T06:59:00+00:00",
+                "time": "2019-03-20T05:10:32+00:00",
                 "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
                 "license": [
                     "proprietary"
                 ],
@@ -1641,45 +1678,6 @@
                 "name": "deloittedigital/qd_link_description",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
-                    "reference": "d3667d9b74345b0530594945b4679548b5a61e74"
-                },
-                "require-dev": {
-                    "asm89/twig-lint": "@stable",
-                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
-                    "drupal/coder": "^8.0",
-                    "grasmash/yaml-cli": "@stable",
-                    "squizlabs/php_codesniffer": "@stable"
-                },
-                "time": "2019-03-20T04:08:58+00:00",
-                "type": "drupal-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Provides a Drupal Link description field to author hyperlinks with an associated description.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-description/browse"
-                }
-            },
-            "dev-feature-DDDP-127-stable-module-with-tests": {
-                "name": "deloittedigital/qd_link_description",
-                "version": "dev-feature-DDDP-127-stable-module-with-tests",
-                "version_normalized": "dev-feature-DDDP-127-stable-module-with-tests",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
