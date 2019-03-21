@@ -922,37 +922,6 @@
                 }
             }
         },
-        "deloittedigital/qd_carousel": {
-            "dev-master": {
-                "name": "deloittedigital/qd_carousel",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-carousel.git",
-                    "reference": "633c5c203c513896ed50e5f3673600b480d9ddd3"
-                },
-                "time": "2019-03-06T21:58:13+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia) | Stephen R.",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Quadrupal Carousel",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-carousel/browse",
-                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            }
-        },
         "deloittedigital/qd_childmenu": {
             "0.0.1": {
                 "name": "deloittedigital/qd_childmenu",
@@ -1453,72 +1422,6 @@
                 "time": "2018-10-24T04:18:48+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal event feature."
-            }
-        },
-        "deloittedigital/qd_hero": {
-            "1.0.0": {
-                "name": "deloittedigital/qd_hero",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-hero.git",
-                    "reference": "24638b87de014e2f76e7cac9623f565ff27bbdaa"
-                },
-                "require": {
-                    "drupal/element_class_formatter": "^1.0"
-                },
-                "time": "2019-03-06T03:57:18+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia) | Stephen R.",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Quadrupal Hero",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-hero/browse",
-                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "dev-master": {
-                "name": "deloittedigital/qd_hero",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-hero.git",
-                    "reference": "24638b87de014e2f76e7cac9623f565ff27bbdaa"
-                },
-                "require": {
-                    "drupal/element_class_formatter": "^1.0"
-                },
-                "time": "2019-03-06T03:57:18+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia) | Stephen R.",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Quadrupal Hero",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-hero/browse",
-                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
             }
         },
         "deloittedigital/qd_layouts": {
