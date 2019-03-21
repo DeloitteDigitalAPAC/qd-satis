@@ -70,6 +70,14 @@
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git"
         },
+         "qd-hero": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-hero.git"
+        },
+         "qd-carousel": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-carousel.git"
+        },
         "quadrupal": {
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git"
