@@ -2490,6 +2490,64 @@
                     }
                 },
                 "description": "Default config for webform."
+            },
+            "dev-feature-webform-repositories-broken-in-profile": {
+                "name": "deloittedigital/qd_webform",
+                "version": "dev-feature-webform-repositories-broken-in-profile",
+                "version_normalized": "dev-feature-webform-repositories-broken-in-profile",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
+                    "reference": "30cef2a4b1e292462c4599d5758e7dca08d7b1d6"
+                },
+                "require": {
+                    "drupal/config_rewrite": "^1.1",
+                    "drupal/webform": "^5.0@rc",
+                    "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
+                    "npm-asset/progress-tracker": "1.4.0",
+                    "oomphinc/composer-installers-extender": "^1.1"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-03-20T09:07:13+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "libraries/jquery.{$name}": [
+                            "npm-asset/jquery-word-and-character-counter-plugin"
+                        ],
+                        "libraries/{$name}": [
+                            "npm-asset/progress-tracker"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Webform for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
+                }
             }
         },
         "deloittedigital/quadrupal": {
