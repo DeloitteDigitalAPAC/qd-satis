@@ -3347,7 +3347,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "d1d76af072da0984448b1a364a679ed4b2ffad82"
+                    "reference": "2fb8f3e0e1fd6b8802bea3b257bd8d28755cef93"
                 },
                 "require": {
                     "acquia/lightning": "^3.1",
@@ -3387,7 +3387,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-22T03:58:35+00:00",
+                "time": "2019-03-22T04:11:54+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
