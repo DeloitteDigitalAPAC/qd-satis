@@ -3347,7 +3347,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "9281e00695b45827b3e30b61e8294963bd909460"
+                    "reference": "d1d76af072da0984448b1a364a679ed4b2ffad82"
                 },
                 "require": {
                     "acquia/lightning": "^3.1",
@@ -3387,7 +3387,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-21T07:38:28+00:00",
+                "time": "2019-03-22T03:58:35+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
@@ -3397,7 +3397,18 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "The Deloitte Digital Drupal Distribution profile."
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Deloitte Digital Drupal Distribution profile.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/quadrupal/browse"
+                }
             },
             "dev-feature-remove-ddigital-theme-install": {
                 "name": "deloittedigital/quadrupal",
