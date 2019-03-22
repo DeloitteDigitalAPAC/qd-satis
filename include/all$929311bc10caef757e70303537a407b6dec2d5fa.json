@@ -3075,24 +3075,24 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "cf163a82a18ef2a1ac355138c6b221f9145fdf85"
+                    "reference": "566df8b7e5a9789df8cdfd5bed7356b4a613cb11"
                 },
                 "require": {
-                    "acquia/lightning": "^3.1.5",
-                    "deloittedigital/air": "^1.0.0",
-                    "deloittedigital/qd_alerts": "^1.2.0",
-                    "deloittedigital/qd_childmenu": "dev-master",
-                    "deloittedigital/qd_download": "^1.2.0",
-                    "deloittedigital/qd_event": "^1.2.0",
-                    "deloittedigital/qd_layouts": "^1.2.0",
-                    "deloittedigital/qd_link_description": "dev-master",
+                    "acquia/lightning": "^3.1",
+                    "deloittedigital/air": "^1.0",
+                    "deloittedigital/qd_alerts": "^1.2",
+                    "deloittedigital/qd_childmenu": "^0.0.9||^1.0",
+                    "deloittedigital/qd_download": "^1.2",
+                    "deloittedigital/qd_event": "^1.2",
+                    "deloittedigital/qd_layouts": "~1.0.0||^1.2",
+                    "deloittedigital/qd_link_description": "^1.0",
                     "deloittedigital/qd_media": "^1.2.0",
                     "deloittedigital/qd_news": "^1.2.0",
-                    "deloittedigital/qd_photo_gallery": "^1.2.0",
+                    "deloittedigital/qd_photo_gallery": "^1.2",
                     "deloittedigital/qd_security": "^1.2.0",
-                    "deloittedigital/qd_share_links": "dev-master",
-                    "deloittedigital/qd_webform": "^0.0.1",
-                    "drupal/admin_toolbar": "^1.24.0",
+                    "deloittedigital/qd_share_links": "^0.0.1",
+                    "deloittedigital/qd_webform": "^1.0",
+                    "drupal/admin_toolbar": "^1.24",
                     "drupal/config_ignore": "^2.1",
                     "drupal/config_split": "^1.0",
                     "drupal/console": "~1.0",
@@ -3104,51 +3104,39 @@
                     "drupal/purge": "^3.0@beta",
                     "drupal/recaptcha": "^2.3",
                     "drupal/redirect": "^1.2",
-                    "drupal/shield": "^1.2.0",
+                    "drupal/shield": "^1.2",
                     "drupal/simple_sitemap": "^2.12",
                     "drupal/sitemap": "^1.4"
                 },
                 "require-dev": {
-                    "phing/phing": "^2.14"
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-15T01:08:15+00:00",
+                "time": "2019-03-22T05:04:59+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    },
-                    "installer-paths": {
-                        "docroot/core": [
-                            "type:drupal-core"
-                        ],
-                        "docroot/modules/contrib/{$name}": [
-                            "type:drupal-module"
-                        ],
-                        "docroot/themes/contrib/{$name}": [
-                            "type:drupal-theme"
-                        ],
-                        "docroot/libraries/{$name}": [
-                            "type:drupal-library"
-                        ],
-                        "docroot/profiles/contrib/{$name}": [
-                            "type:drupal-profile"
-                        ]
+                        "dev-master": "1.2.x-dev"
                     }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ],
-                    "post-update-cmd": [
-                        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-                        "./bin/phing push"
-                    ]
                 },
                 "license": [
                     "proprietary"
                 ],
-                "description": "The Deloitte Digital Drupal Distribution"
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Deloitte Digital Drupal Distribution profile.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/quadrupal/browse"
+                }
             },
             "dev-adding-dq-breadcrumbs": {
                 "name": "deloittedigital/quadrupal",
@@ -3347,7 +3335,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "e3757bb44c963bc6f13cc5c3da437bf5950ae4dc"
+                    "reference": "566df8b7e5a9789df8cdfd5bed7356b4a613cb11"
                 },
                 "require": {
                     "acquia/lightning": "^3.1",
@@ -3356,7 +3344,7 @@
                     "deloittedigital/qd_childmenu": "^0.0.9||^1.0",
                     "deloittedigital/qd_download": "^1.2",
                     "deloittedigital/qd_event": "^1.2",
-                    "deloittedigital/qd_layouts": "^0.0.6||^1.0",
+                    "deloittedigital/qd_layouts": "~1.0.0||^1.2",
                     "deloittedigital/qd_link_description": "^1.0",
                     "deloittedigital/qd_media": "^1.2.0",
                     "deloittedigital/qd_news": "^1.2.0",
@@ -3387,7 +3375,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-22T04:31:36+00:00",
+                "time": "2019-03-22T05:04:59+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
