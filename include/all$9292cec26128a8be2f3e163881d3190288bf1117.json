@@ -3347,7 +3347,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "2fb8f3e0e1fd6b8802bea3b257bd8d28755cef93"
+                    "reference": "e3757bb44c963bc6f13cc5c3da437bf5950ae4dc"
                 },
                 "require": {
                     "acquia/lightning": "^3.1",
@@ -3356,7 +3356,7 @@
                     "deloittedigital/qd_childmenu": "^0.0.9||^1.0",
                     "deloittedigital/qd_download": "^1.2",
                     "deloittedigital/qd_event": "^1.2",
-                    "deloittedigital/qd_layouts": "~1.0.0||^1.2",
+                    "deloittedigital/qd_layouts": "^0.0.6||^1.0",
                     "deloittedigital/qd_link_description": "^1.0",
                     "deloittedigital/qd_media": "^1.2.0",
                     "deloittedigital/qd_news": "^1.2.0",
@@ -3387,7 +3387,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-22T04:11:54+00:00",
+                "time": "2019-03-22T04:31:36+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
