@@ -1299,7 +1299,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-default-content.git",
-                    "reference": "2b948e74c79e853fc0fa8808d9e10ed1d194f7ef"
+                    "reference": "63d7d28859ba2e53578577f24bde310898eb43ab"
                 },
                 "require": {
                     "drupal/element_class_formatter": "^1.0",
@@ -1307,7 +1307,7 @@
                     "drupal/migrate_source_csv": "^2.2",
                     "drupal/migrate_tools": "4.0.*"
                 },
-                "time": "2019-04-02T22:47:24+00:00",
+                "time": "2019-04-03T04:17:48+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
