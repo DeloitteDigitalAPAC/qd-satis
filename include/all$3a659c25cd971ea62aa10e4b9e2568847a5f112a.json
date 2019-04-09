@@ -1289,6 +1289,38 @@
                     ]
                 },
                 "description": "Allow to show child pages from the current page"
+            },
+            "dev-test/fix-test-case": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "dev-test/fix-test-case",
+                "version_normalized": "dev-test/fix-test-case",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "5efdfb544523f8a3a63e2e4bdbdce7e418b252eb"
+                },
+                "time": "2019-04-08T03:53:09+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Child Menu block type for Drupal by Deloitte Digital. Show links to children of the current page from the Drupal menu hierarchy.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
+                }
             }
         },
         "deloittedigital/qd_download": {
