@@ -2550,6 +2550,31 @@
                     ]
                 },
                 "description": "Quadrupal news feature."
+            },
+            "dev-buildkite": {
+                "name": "deloittedigital/qd_news",
+                "version": "dev-buildkite",
+                "version_normalized": "dev-buildkite",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
+                    "reference": "377d6cb704342d0b62a0885076450c8129fe3e34"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2019-04-10T09:53:44+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Quadrupal news feature."
             }
         },
         "deloittedigital/qd_photo_gallery": {
