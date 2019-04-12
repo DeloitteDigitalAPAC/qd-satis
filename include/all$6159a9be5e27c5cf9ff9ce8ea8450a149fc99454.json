@@ -1668,6 +1668,52 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
+            "dev-buildkite": {
+                "name": "deloittedigital/qd_hero",
+                "version": "dev-buildkite",
+                "version_normalized": "dev-buildkite",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-hero.git",
+                    "reference": "5f798f936a7d1b44eaedb30bb0a887d47bb99b80"
+                },
+                "require": {
+                    "deloittedigital/quadrupal": "^1.2.2",
+                    "drupal/element_class_formatter": "^1.0",
+                    "drupal/field_group": "^3.0@beta"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-04-11T14:27:07+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia) | Stephen R.",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Quadrupal Hero",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-hero/browse",
+                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "dev-config": {
                 "name": "deloittedigital/qd_hero",
                 "version": "dev-config",
@@ -2558,12 +2604,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
-                    "reference": "377d6cb704342d0b62a0885076450c8129fe3e34"
+                    "reference": "62c41d6430754cddd632762184912e170afa13d1"
                 },
-                "require-dev": {
-                    "deloittedigital/qd_test": "^1.0"
+                "require": {
+                    "deloittedigital/quadrupal": "^1.2.1"
                 },
-                "time": "2019-04-10T09:53:44+00:00",
+                "time": "2019-04-11T02:21:09+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
