@@ -5371,7 +5371,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
-                    "reference": "4179a6cdf823d9faaba60539887415d0ad13f957"
+                    "reference": "c13cc2dc1a0b037c44cb1ac939df9a4e950902cd"
                 },
                 "require": {
                     "acquia/blt": "^9.2.0",
