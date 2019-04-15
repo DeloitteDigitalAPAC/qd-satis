@@ -2860,6 +2860,64 @@
                 },
                 "description": "Default config for webform."
             },
+            "1.0.0": {
+                "name": "deloittedigital/qd_webform",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
+                    "reference": "5ef6515dce37cc9e932d96be13f2bf9d6e6e9a4d"
+                },
+                "require": {
+                    "drupal/config_rewrite": "^1.1",
+                    "drupal/webform": "^5.0@rc",
+                    "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
+                    "npm-asset/progress-tracker": "1.4.0",
+                    "oomphinc/composer-installers-extender": "^1.1"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-04-05T03:16:24+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "libraries/jquery.{$name}": [
+                            "npm-asset/jquery-word-and-character-counter-plugin"
+                        ],
+                        "libraries/{$name}": [
+                            "npm-asset/progress-tracker"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Webform for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_webform",
                 "version": "dev-master",
@@ -5120,6 +5178,82 @@
                     "geerlingguy/drupal-vm": "~4.3"
                 },
                 "time": "2019-04-14T22:23:45+00:00",
+                "type": "project",
+                "extra": {
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/modules/custom/{$name}": [
+                            "type:drupal-custom-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/profiles/custom/{$name}": [
+                            "type:drupal-custom-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "docroot/themes/custom/{$name}": [
+                            "type:drupal-custom-theme"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "drush/Commands/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "merge-plugin": {
+                        "require": [
+                            "blt/composer.required.json"
+                        ],
+                        "include": [
+                            "blt/composer.overrides.json"
+                        ],
+                        "merge-extra": true,
+                        "merge-extra-deep": true,
+                        "merge-scripts": true,
+                        "replace": false,
+                        "ignore-duplicates": true
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Template for Deloitte Drupal 8 sites built with BLT."
+            },
+            "dev-feature-vm-box-config-updates": {
+                "name": "deloittedigital/quadrupal-build",
+                "version": "dev-feature-vm-box-config-updates",
+                "version_normalized": "dev-feature-vm-box-config-updates",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git",
+                    "reference": "02f41c6fd7f39860b6ccfb561fbc523b073be5ae"
+                },
+                "require": {
+                    "acquia/blt": "^9.2.0",
+                    "deloittedigital/quadrupal": "^1.2.1",
+                    "drupal/core": "^8.6.1"
+                },
+                "require-dev": {
+                    "drupal/devel": "^1.2",
+                    "geerlingguy/drupal-vm": "~4.3"
+                },
+                "time": "2019-04-14T23:32:05+00:00",
                 "type": "project",
                 "extra": {
                     "enable-patching": true,
