@@ -1636,14 +1636,14 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
-            "dev-buildkite": {
+            "dev-buildkites": {
                 "name": "deloittedigital/qd_hero",
-                "version": "dev-buildkite",
-                "version_normalized": "dev-buildkite",
+                "version": "dev-buildkites",
+                "version_normalized": "dev-buildkites",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-hero.git",
-                    "reference": "31ae45432ded1bed1ee0015ca102ba2451d90d77"
+                    "reference": "b25d3bca7e1b1140a9bfa922e5c232649ba1fe13"
                 },
                 "require": {
                     "drupal/element_class_formatter": "^1.0",
@@ -1659,7 +1659,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-04-15T07:25:58+00:00",
+                "time": "2019-04-16T04:59:03+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
