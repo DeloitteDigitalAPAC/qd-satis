@@ -7,19 +7,8 @@
 class RoboFile extends \Robo\Tasks {
 
   function satisDirExists() {
-    exec('ls -l satis 2> /dev/null', $output, $satis_exit_code);
+    exec('ls -l vendor/bin/satis 2> /dev/null', $output, $satis_exit_code);
     return ($satis_exit_code === 0) ? TRUE: FALSE;
-  }
-
-  function getSatis() {
-    $collection = $this->collectionBuilder();
-    $collection->taskDeleteDir('satis')
-    ->taskGitStack()
-      ->stopOnFail()
-      ->cloneShallow('git@github.com:composer/satis.git')
-    ->taskComposerInstall()
-      ->dir('satis');
-    return $collection->run();
   }
 
   function getBuildRepo() {
@@ -32,8 +21,7 @@ class RoboFile extends \Robo\Tasks {
   }
 
   function buildSatis() {
-    return $this->taskExec('php bin/satis build ../satis.json ../build')
-      ->dir('satis')
+    return $this->taskExec('php vendor/bin/satis build satis.json build')
       ->run();
   }
 
@@ -50,11 +38,8 @@ class RoboFile extends \Robo\Tasks {
       ->run();
   }
 
-  function build($opts = ['re-download-satis' => false, 'publish' => false]) {
+  function build($opts = ['publish' => false]) {
     $this->stopOnFail(TRUE);
-    if (!$this->satisDirExists() || $opts['re-download-satis']) {
-      $this->getSatis();
-    }
 
     $this->getBuildRepo();
     $this->buildSatis();
