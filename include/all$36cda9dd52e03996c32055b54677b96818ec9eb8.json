@@ -2710,6 +2710,27 @@
                 "time": "2018-10-22T04:54:12+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
+            },
+            "dev-feature/adding-rename_admin_paths": {
+                "name": "deloittedigital/qd_security",
+                "version": "dev-feature/adding-rename_admin_paths",
+                "version_normalized": "dev-feature/adding-rename_admin_paths",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
+                    "reference": "9b89d210ab7faba1b3975954e70d6a037791f1e8"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/config_rewrite": "^1.1",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/rename_admin_paths": "^1.1",
+                    "drupal/seckit": "^1.0.0-alpha2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2019-05-08T07:36:59+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
             }
         },
         "deloittedigital/qd_share_links": {
