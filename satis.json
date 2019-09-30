@@ -85,6 +85,10 @@
         "quadrupal-build": {
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal-build.git"
+        },
+        "drupal-project": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git"
         }
     },
     "require-all": true
