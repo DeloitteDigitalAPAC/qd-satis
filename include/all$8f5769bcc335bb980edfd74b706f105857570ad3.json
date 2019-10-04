@@ -574,7 +574,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "381fc0f435d76aae863fcf777dd38b50f0a9b25b"
+                    "reference": "3f95def7a5fc29d7480d774fb988a28f837d0963"
                 },
                 "require": {
                     "acquia/blt": "^10.0",
@@ -582,6 +582,7 @@
                     "acquia/memcache-settings": "@dev",
                     "composer/installers": "^1.2",
                     "cweagans/composer-patches": "^1.6.5",
+                    "deloittedigital/quadrupal": "~1.2.2",
                     "drupal-composer/drupal-scaffold": "^2.5",
                     "drupal/acquia_connector": "^1.5",
                     "drupal/acquia_purge": "^1.0-beta3",
@@ -600,11 +601,16 @@
                 "require-dev": {
                     "acquia/blt-require-dev": "^10.0@alpha",
                     "acquia/drupal-spec-tool": "^2.0",
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
                     "drupal/config_inspector": "^1.0",
                     "geerlingguy/drupal-vm": "^4.8",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable",
                     "webflo/drupal-core-require-dev": "^8.7"
                 },
-                "time": "2019-09-30T23:06:33+00:00",
+                "time": "2019-10-04T06:59:18+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
@@ -677,7 +683,7 @@
                 ],
                 "description": "Project template for Drupal 8 projects with composer",
                 "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/",
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/drupal-project/",
                     "issues": "https://hub.deloittedigital.com.au/jira/",
                     "wiki": "https://hub.deloittedigital.com.au/wiki/"
                 }
