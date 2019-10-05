@@ -2492,16 +2492,16 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "8333a2c769ed4b13ee70ff766e1216336a3a0e7f"
+                    "reference": "77343a19548072e3120ddac7df607c77e70e46f6"
                 },
                 "require": {
-                    "acquia/lightning": "^2.2.9||^3.0",
+                    "acquia/lightning": "^2.2.9||^3.0||^4.0",
                     "drupal/core": "^8.4.6",
                     "drupal/duration_field": "^1.6",
                     "drupal/field_group": "^3.0@beta",
                     "drupal/media_entity_soundcloud": "^2.0"
                 },
-                "time": "2019-10-05T01:56:17+00:00",
+                "time": "2019-10-05T02:48:16+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3702,10 +3702,10 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "32bb762e282dc63bef86d95d3fcaffe365099daf"
+                    "reference": "c059234ee85f2cd668a47a6a17233431d1e8d436"
                 },
                 "require": {
-                    "acquia/lightning": "^3.1",
+                    "acquia/lightning": "^4.0",
                     "deloittedigital/air": "^1.0",
                     "deloittedigital/qd_alerts": "^1.2",
                     "deloittedigital/qd_childmenu": "^1.0",
@@ -3742,7 +3742,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-10-05T02:32:58+00:00",
+                "time": "2019-10-05T02:46:19+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
