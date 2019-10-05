@@ -3702,16 +3702,16 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "941ed167173090a6fa5220e3a6a5b5436ffd826e"
+                    "reference": "32bb762e282dc63bef86d95d3fcaffe365099daf"
                 },
                 "require": {
                     "acquia/lightning": "^3.1",
                     "deloittedigital/air": "^1.0",
                     "deloittedigital/qd_alerts": "^1.2",
-                    "deloittedigital/qd_childmenu": "^0.0.9||^1.0",
+                    "deloittedigital/qd_childmenu": "^1.0",
                     "deloittedigital/qd_download": "^1.2",
                     "deloittedigital/qd_event": "^1.2",
-                    "deloittedigital/qd_layouts": "~1.0.0||^1.2",
+                    "deloittedigital/qd_layouts": "^1.2",
                     "deloittedigital/qd_link_description": "^1.0",
                     "deloittedigital/qd_media": "^2.0.0",
                     "deloittedigital/qd_news": "^1.2.0",
@@ -3724,9 +3724,9 @@
                     "drupal/config_split": "^1.0",
                     "drupal/console": "~1.0",
                     "drupal/easy_breadcrumb": "~1.8",
-                    "drupal/focal_point": "^1.0@beta",
                     "drupal/google_analytics": "^3.0@beta",
                     "drupal/google_tag": "^1.1",
+                    "drupal/image_widget_crop": "^2.2",
                     "drupal/memcache": "^2.0-alpha5",
                     "drupal/purge": "^3.0@beta",
                     "drupal/recaptcha": "^2.3",
@@ -3742,7 +3742,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-10-05T02:14:32+00:00",
+                "time": "2019-10-05T02:32:58+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
