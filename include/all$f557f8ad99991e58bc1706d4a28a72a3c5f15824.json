@@ -3979,7 +3979,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "b018820c93979a7b98bd5c4fd49309345d4f767f"
+                    "reference": "5e19039e9a8bec99d0d3114e11b3e2f462670ffb"
                 },
                 "require": {
                     "acquia/lightning": "^4.0",
