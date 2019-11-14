@@ -2534,7 +2534,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "77343a19548072e3120ddac7df607c77e70e46f6"
+                    "reference": "1cf32dc61c5575d1932aa3b9409dd277d0411fc3"
                 },
                 "require": {
                     "acquia/lightning": "^2.2.9||^3.0||^4.0",
@@ -2543,13 +2543,24 @@
                     "drupal/field_group": "^3.0@beta",
                     "drupal/media_entity_soundcloud": "^2.0"
                 },
-                "time": "2019-10-05T02:48:16+00:00",
+                "require-dev": {
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2019-11-14T05:01:37+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-2.x": "2.0.x-dev",
                         "2.x-dev": "2.0.x-dev"
                     }
+                },
+                "scripts": {
+                    "install-codestandards": [
+                        "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+                    ]
                 },
                 "license": [
                     "proprietary"
@@ -2617,22 +2628,34 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "a1170fa3aba15441ec78d1071c7f09b96f4418bb"
+                    "reference": "07bb76ed64e8d464bc96cc30e223939a5a7723ed"
                 },
                 "require": {
-                    "acquia/lightning": "^2.2.9||^3.0",
+                    "acquia/lightning": "^2.2.9||^3.0||^4.0",
                     "drupal/core": "^8.4.6",
                     "drupal/duration_field": "^1.6",
                     "drupal/field_group": "^3.0@beta",
                     "drupal/media_entity_soundcloud": "^2.0",
                     "drupal/rabbit_hole": "^1.0@beta"
                 },
+                "require-dev": {
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
                 "time": "2019-06-19T06:22:11+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "2.0.x-dev"
+                        "dev-2.x": "2.0.x-dev",
+                        "2.x-dev": "2.0.x-dev"
                     }
+                },
+                "scripts": {
+                    "install-codestandards": [
+                        "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+                    ]
                 },
                 "license": [
                     "proprietary"
@@ -2659,7 +2682,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "dfd4d086c72bb9fb0a805edcfe64e44cbb634b40"
+                    "reference": "fa24417da8b33375e4f53e94249fdd4e947e321c"
                 },
                 "require": {
                     "acquia/lightning": "^3.2||^4.0",
@@ -2674,13 +2697,18 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-11-14T02:37:24+00:00",
+                "time": "2019-11-13T06:50:05+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-2.x": "2.0.x-dev",
                         "2.x-dev": "2.0.x-dev"
                     }
+                },
+                "scripts": {
+                    "install-codestandards": [
+                        "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+                    ]
                 },
                 "license": [
                     "proprietary"
@@ -3863,7 +3891,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "cc4e7541ca9a0544478d05a8af1914b37ef8644b"
+                    "reference": "770151bc6fb7cf75eacc1c8f1662dcce5927c8d9"
                 },
                 "require": {
                     "acquia/lightning": "^4.0",
@@ -3874,7 +3902,7 @@
                     "deloittedigital/qd_event": "^1.2",
                     "deloittedigital/qd_layouts": "^1.2",
                     "deloittedigital/qd_link_description": "^1.0",
-                    "deloittedigital/qd_media": "^2.0-dev",
+                    "deloittedigital/qd_media": "^2.0",
                     "deloittedigital/qd_news": "^1.2.0",
                     "deloittedigital/qd_photo_gallery": "^1.2",
                     "deloittedigital/qd_security": "^1.2.0",
@@ -3903,7 +3931,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-10-06T02:24:39+00:00",
+                "time": "2019-11-14T02:48:26+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
