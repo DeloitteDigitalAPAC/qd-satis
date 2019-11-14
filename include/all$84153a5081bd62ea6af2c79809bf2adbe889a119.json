@@ -2534,13 +2534,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "1cf32dc61c5575d1932aa3b9409dd277d0411fc3"
+                    "reference": "fcffbf1a1504dec8b571768f666145ffd05c22b5"
                 },
                 "require": {
-                    "acquia/lightning": "^2.2.9||^3.0||^4.0",
-                    "drupal/core": "^8.4.6",
-                    "drupal/duration_field": "^1.6",
-                    "drupal/field_group": "^3.0@beta",
+                    "acquia/lightning": "^3.2||^4.0",
+                    "drupal/core": "^8.6",
+                    "drupal/duration_field": "^2.0@rc",
+                    "drupal/field_group": "^3.0@rc",
                     "drupal/media_entity_soundcloud": "^2.0"
                 },
                 "require-dev": {
@@ -2549,7 +2549,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-11-14T05:01:37+00:00",
+                "time": "2019-11-14T06:07:46+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2645,59 +2645,6 @@
                     "squizlabs/php_codesniffer": "@stable"
                 },
                 "time": "2019-06-19T06:22:11+00:00",
-                "type": "drupal-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-2.x": "2.0.x-dev",
-                        "2.x-dev": "2.0.x-dev"
-                    }
-                },
-                "scripts": {
-                    "install-codestandards": [
-                        "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
-                    ]
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Quadrupal media is the best of Drupal media by Deloitte Digital",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd_media/browse",
-                    "issues": "https://hub.deloittedigital.com.au/jira/browse/DDDP",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "dev-feature-deprecate-unsupported-versions": {
-                "name": "deloittedigital/qd_media",
-                "version": "dev-feature-deprecate-unsupported-versions",
-                "version_normalized": "dev-feature-deprecate-unsupported-versions",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "fa24417da8b33375e4f53e94249fdd4e947e321c"
-                },
-                "require": {
-                    "acquia/lightning": "^3.2||^4.0",
-                    "drupal/core": "^8.6",
-                    "drupal/duration_field": "^1.6",
-                    "drupal/field_group": "^3.0@beta",
-                    "drupal/media_entity_soundcloud": "^2.0"
-                },
-                "require-dev": {
-                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
-                    "drupal/coder": "^8.0",
-                    "grasmash/yaml-cli": "@stable",
-                    "squizlabs/php_codesniffer": "@stable"
-                },
-                "time": "2019-11-13T06:50:05+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
