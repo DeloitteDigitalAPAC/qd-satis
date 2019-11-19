@@ -461,6 +461,34 @@
                 ],
                 "description": "Base theme for QuaDrupal"
             },
+            "1.0.x-dev": {
+                "name": "deloittedigital/air",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "d9db2d856f2ac0a290fe64dab03e1e5d5de56cd0"
+                },
+                "time": "2019-03-14T00:54:40+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/air",
                 "version": "dev-master",
@@ -517,22 +545,6 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
-            "dev-feature-add-manual-deploy": {
-                "name": "deloittedigital/air",
-                "version": "dev-feature-add-manual-deploy",
-                "version_normalized": "dev-feature-add-manual-deploy",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "a308a37f082f72b4041c3df769e82ce190437434"
-                },
-                "time": "2018-04-12T00:11:59+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "description": "Base theme for QuaDrupal"
-            },
             "dev-feature-starter-kit": {
                 "name": "deloittedigital/air",
                 "version": "dev-feature-starter-kit",
@@ -543,22 +555,6 @@
                     "reference": "f2953c4df07614a7f6e8379be3c66412042fa545"
                 },
                 "time": "2018-03-05T22:49:35+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "description": "Base theme for QuaDrupal"
-            },
-            "dev-fix-git-ignore": {
-                "name": "deloittedigital/air",
-                "version": "dev-fix-git-ignore",
-                "version_normalized": "dev-fix-git-ignore",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "d6d6ada7bad48faecfc026a0555568762e40d6d6"
-                },
-                "time": "2018-04-11T08:05:40+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "BSD-3-Clause"
@@ -2234,6 +2230,33 @@
                 "type": "drupal-module",
                 "description": "Quadrupal icon link."
             },
+            "1.2.2": {
+                "name": "deloittedigital/qd_link_icon",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
+                    "reference": "3171cc468723ea83f2b868e63a5b52c337c657be"
+                },
+                "time": "2019-11-19T01:41:35+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Drupal hyperlinked icons by Deloitte Digital. Provides a content field for a hyperlink with an SVG icon.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-link-icon/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_link_icon",
                 "version": "dev-master",
@@ -2241,9 +2264,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-icon.git",
-                    "reference": "b27f60bb0875a74eb5ed7ab85fcabb5b10fe487f"
+                    "reference": "3171cc468723ea83f2b868e63a5b52c337c657be"
                 },
-                "time": "2019-01-02T06:06:47+00:00",
+                "time": "2019-11-19T01:41:35+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
