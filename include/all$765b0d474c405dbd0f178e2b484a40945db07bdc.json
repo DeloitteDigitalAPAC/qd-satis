@@ -951,18 +951,35 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
                 }
             },
-            "dev-feature-add-rte": {
+            "dev-bugfix-add-element_class_formatter-module": {
                 "name": "deloittedigital/qd_accordion",
-                "version": "dev-feature-add-rte",
-                "version_normalized": "dev-feature-add-rte",
+                "version": "dev-bugfix-add-element_class_formatter-module",
+                "version_normalized": "dev-bugfix-add-element_class_formatter-module",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
-                    "reference": "996ed68dda2ba7e047f5bb5d4c7be0cdbd2f19e2"
+                    "reference": "5bed1efc44f22f2d6f98759e6e5d25635098f932"
                 },
-                "time": "2018-12-11T04:49:10+00:00",
+                "require": {
+                    "drupal/element_class_formatter": "^1.1"
+                },
+                "time": "2019-11-20T01:41:20+00:00",
                 "type": "drupal-module",
-                "description": "Quadrupal accordion."
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Accordion widget for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
+                }
             }
         },
         "deloittedigital/qd_alerts": {
