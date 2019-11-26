@@ -552,9 +552,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "d7f085f489c942a6c1ba7560156e81f0f1351311"
+                    "reference": "31f26a8d3212202c135d0dbf259a28beb194c24c"
                 },
-                "time": "2019-11-26T01:20:32+00:00",
+                "time": "2019-11-26T01:48:06+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
