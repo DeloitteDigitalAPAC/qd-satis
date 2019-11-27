@@ -461,6 +461,34 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
+            "v1.0.28": {
+                "name": "deloittedigital/air",
+                "version": "v1.0.28",
+                "version_normalized": "1.0.28.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "9f5a059910ffd265d10ff0e490f8b7f90b921c2d"
+                },
+                "time": "2019-11-27T04:16:02+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "v1.0.3": {
                 "name": "deloittedigital/air",
                 "version": "v1.0.3",
@@ -692,9 +720,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "34cfa2b806c007e908ef71bee21fc189b7997e87"
+                    "reference": "4dd8de4616cce034784188a4b624218e0a729061"
                 },
-                "time": "2019-11-26T05:08:14+00:00",
+                "time": "2019-11-21T00:04:28+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
