@@ -1178,6 +1178,36 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
                 }
             },
+            "1.2.7": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
+                    "reference": "8d4833eebe70466481b1770164dbb7f65cfb0b74"
+                },
+                "require": {
+                    "drupal/element_class_formatter": "^1.1"
+                },
+                "time": "2019-12-03T01:24:31+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Accordion widget for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_accordion",
                 "version": "dev-master",
@@ -1185,12 +1215,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
-                    "reference": "1c62c72357730cb041627303dd14403862c9ff67"
+                    "reference": "8d4833eebe70466481b1770164dbb7f65cfb0b74"
                 },
                 "require": {
                     "drupal/element_class_formatter": "^1.1"
                 },
-                "time": "2019-11-20T01:41:20+00:00",
+                "time": "2019-12-03T01:24:31+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
