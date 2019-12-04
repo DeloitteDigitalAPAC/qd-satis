@@ -349,118 +349,6 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
-            "1.0.24": {
-                "name": "deloittedigital/air",
-                "version": "1.0.24",
-                "version_normalized": "1.0.24.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "649e9818b1f5f8326439551b6fad28e742d7c10a"
-                },
-                "time": "2019-11-26T05:03:04+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "v1.0.25": {
-                "name": "deloittedigital/air",
-                "version": "v1.0.25",
-                "version_normalized": "1.0.25.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "cfb458220979624bb6e3cd04b7c0a6801e133ad1"
-                },
-                "time": "2019-11-26T04:22:04+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "v1.0.26": {
-                "name": "deloittedigital/air",
-                "version": "v1.0.26",
-                "version_normalized": "1.0.26.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "743028ae058c70974349a7268d8cbca7b7b4826a"
-                },
-                "time": "2019-11-26T04:42:12+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "v1.0.27": {
-                "name": "deloittedigital/air",
-                "version": "v1.0.27",
-                "version_normalized": "1.0.27.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "4c1a832751ee52b9bf56b4b55d6b5cb637580d98"
-                },
-                "time": "2019-11-26T05:10:37+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
             "v1.0.28": {
                 "name": "deloittedigital/air",
                 "version": "v1.0.28",
@@ -611,34 +499,6 @@
                     "reference": "d9db2d856f2ac0a290fe64dab03e1e5d5de56cd0"
                 },
                 "time": "2019-03-14T00:54:40+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
-            "v2.0.0": {
-                "name": "deloittedigital/air",
-                "version": "v2.0.0",
-                "version_normalized": "2.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "e3cfdc9caf828b4cb8d2d92fb16a49f36c359d18"
-                },
-                "time": "2019-11-26T04:02:29+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
@@ -1208,6 +1068,36 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
                 }
             },
+            "1.2.8": {
+                "name": "deloittedigital/qd_accordion",
+                "version": "1.2.8",
+                "version_normalized": "1.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
+                    "reference": "e4eea0f531b32cf573db5ad5c5770c6f8ecb747d"
+                },
+                "require": {
+                    "drupal/element_class_formatter": "^1.1"
+                },
+                "time": "2019-12-04T06:26:58+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Accordion widget for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-accordion/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_accordion",
                 "version": "dev-master",
@@ -1215,12 +1105,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-accordion.git",
-                    "reference": "8d4833eebe70466481b1770164dbb7f65cfb0b74"
+                    "reference": "e4eea0f531b32cf573db5ad5c5770c6f8ecb747d"
                 },
                 "require": {
                     "drupal/element_class_formatter": "^1.1"
                 },
-                "time": "2019-12-03T01:24:31+00:00",
+                "time": "2019-12-04T06:26:58+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
