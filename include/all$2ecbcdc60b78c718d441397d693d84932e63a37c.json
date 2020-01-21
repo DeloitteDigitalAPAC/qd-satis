@@ -349,34 +349,6 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
-            "v1.0.28": {
-                "name": "deloittedigital/air",
-                "version": "v1.0.28",
-                "version_normalized": "1.0.28.0",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "9f5a059910ffd265d10ff0e490f8b7f90b921c2d"
-                },
-                "time": "2019-11-27T04:16:02+00:00",
-                "type": "drupal-theme",
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Deloitte Digital (Australia)",
-                        "email": "drupal@deloitte.com.au",
-                        "homepage": "http://deloittedigital.com.au",
-                        "role": "Maintainer"
-                    }
-                ],
-                "description": "Base theme for Drupal by Deloitte Digital.",
-                "support": {
-                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
-                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
-                }
-            },
             "v1.0.3": {
                 "name": "deloittedigital/air",
                 "version": "v1.0.3",
@@ -3115,6 +3087,46 @@
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
+            "1.3.0": {
+                "name": "deloittedigital/qd_security",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
+                    "reference": "6d3e36c391a053e27bc59fde0e675f24549ea98a"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/login_security": "^1.5",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/seckit": "^1.0.0-alpha2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2020-01-21T05:20:06+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
+            "1.3.1": {
+                "name": "deloittedigital/qd_security",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
+                    "reference": "f21cb66d7187ace54de861ac75d162475232945b"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/login_security": "^1.5",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/seckit": "^1.2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2020-01-21T06:31:20+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_security",
                 "version": "dev-master",
@@ -3122,15 +3134,16 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
-                    "reference": "6afc77cd019aabdd5eb6aac2196ebc1b46c3417b"
+                    "reference": "f21cb66d7187ace54de861ac75d162475232945b"
                 },
                 "require": {
                     "drupal/clamav": "^1.0",
+                    "drupal/login_security": "^1.5",
                     "drupal/password_policy": "^3.0@alpha",
-                    "drupal/seckit": "^1.0.0-alpha2",
+                    "drupal/seckit": "^1.2",
                     "drupal/session_limit": "^1.0@beta"
                 },
-                "time": "2018-10-22T04:54:12+00:00",
+                "time": "2020-01-21T06:31:20+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
