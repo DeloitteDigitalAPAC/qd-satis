@@ -3127,6 +3127,27 @@
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
+            "1.3.2": {
+                "name": "deloittedigital/qd_security",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
+                    "reference": "495cce810e5ed7f8273e5199d3c4059a6dc9170e"
+                },
+                "require": {
+                    "drupal/clamav": "^1.0",
+                    "drupal/login_security": "^1.5",
+                    "drupal/password_policy": "^3.0@alpha",
+                    "drupal/remove_http_headers": "^1.0@beta",
+                    "drupal/seckit": "^1.2",
+                    "drupal/session_limit": "^1.0@beta"
+                },
+                "time": "2020-01-22T03:18:38+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_security",
                 "version": "dev-master",
@@ -3134,16 +3155,17 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
-                    "reference": "f21cb66d7187ace54de861ac75d162475232945b"
+                    "reference": "495cce810e5ed7f8273e5199d3c4059a6dc9170e"
                 },
                 "require": {
                     "drupal/clamav": "^1.0",
                     "drupal/login_security": "^1.5",
                     "drupal/password_policy": "^3.0@alpha",
+                    "drupal/remove_http_headers": "^1.0@beta",
                     "drupal/seckit": "^1.2",
                     "drupal/session_limit": "^1.0@beta"
                 },
-                "time": "2020-01-21T06:31:20+00:00",
+                "time": "2020-01-22T03:18:38+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
