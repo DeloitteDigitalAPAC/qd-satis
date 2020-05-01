@@ -626,7 +626,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "5a23516629b13f1d34070892ecc155b437421880"
+                    "reference": "15433caf47628123b5211343aa982b0d3e2d04ea"
                 },
                 "require": {
                     "acquia/blt": "^10.0",
@@ -634,7 +634,7 @@
                     "acquia/memcache-settings": "@dev",
                     "composer/installers": "^1.2",
                     "cweagans/composer-patches": "^1.6.5",
-                    "deloittedigital/quadrupal": "^2.0",
+                    "deloittedigital/quadrupal": "2.x-dev",
                     "drupal-composer/drupal-scaffold": "^2.5",
                     "drupal/acquia_connector": "^1.5",
                     "drupal/acquia_purge": "^1.0-beta3",
@@ -662,7 +662,7 @@
                     "squizlabs/php_codesniffer": "@stable",
                     "webflo/drupal-core-require-dev": "^8.7"
                 },
-                "time": "2019-11-14T05:39:55+00:00",
+                "time": "2020-05-01T06:42:24+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
@@ -747,7 +747,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "30f49e0838411a84e87bc295046d93c49a1c46a2"
+                    "reference": "6a18428e0621125f184b7a91286a04cd8687bec9"
                 },
                 "require": {
                     "acquia/blt": "^10.0",
@@ -783,7 +783,7 @@
                     "squizlabs/php_codesniffer": "@stable",
                     "webflo/drupal-core-require-dev": "^8.7"
                 },
-                "time": "2020-05-01T01:54:29+00:00",
+                "time": "2020-05-01T02:03:02+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
