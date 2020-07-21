@@ -2842,11 +2842,11 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "fcffbf1a1504dec8b571768f666145ffd05c22b5"
+                    "reference": "cd8776648a10a123e388343a8e29a2487a2860b2"
                 },
                 "require": {
-                    "acquia/lightning": "^3.2||^4.0",
-                    "drupal/core": "^8.6",
+                    "acquia/lightning": "^3.2||^4.0||^5.0",
+                    "drupal/core": "^8.9||^9.0",
                     "drupal/duration_field": "^2.0@rc",
                     "drupal/field_group": "^3.0@rc",
                     "drupal/media_entity_soundcloud": "^2.0"
@@ -2857,7 +2857,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-11-14T06:07:46+00:00",
+                "time": "2020-07-21T00:08:47+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
