@@ -89,6 +89,14 @@
         "media_entity_soundcloud": {
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/media_entity_soundcloud.git"
+        },
+        "clamav": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/clamav.git"
+        },
+        "login_security": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/login_security.git"
         }
     },
     "require-all": true
