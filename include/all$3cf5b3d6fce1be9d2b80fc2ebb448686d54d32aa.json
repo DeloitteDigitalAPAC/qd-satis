@@ -747,7 +747,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "c1deb7ecaffafca45843881f669962310c135214"
+                    "reference": "16e6234b6f56cfb301efa875e47758be2db47a38"
                 },
                 "require": {
                     "acquia/blt": "^12.0",
@@ -778,7 +778,7 @@
                     "squizlabs/php_codesniffer": "@stable",
                     "zaporylie/composer-drupal-optimizations": "^1.0"
                 },
-                "time": "2020-07-20T01:20:08+00:00",
+                "time": "2020-07-28T07:01:11+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
@@ -856,6 +856,7 @@
                 },
                 "scripts": {
                     "post-create-project-cmd": [
+                        "mv README-template.md README.md",
                         "blt internal:create-project:init-repo"
                     ]
                 },
@@ -1840,6 +1841,38 @@
                     "reference": "7dfa7dcf96a6f4319dbcda54cf3956a847ab5710"
                 },
                 "time": "2019-03-20T00:58:58+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Child Menu block type for Drupal by Deloitte Digital. Show links to children of the current page from the Drupal menu hierarchy.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
+                }
+            },
+            "dev-feature-DDDP-145-add-d9-version-req": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "dev-feature-DDDP-145-add-d9-version-req",
+                "version_normalized": "dev-feature-DDDP-145-add-d9-version-req",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "8bda6d12d0a0fcd1aed372b831e84c96fa88d846"
+                },
+                "time": "2020-07-30T03:50:03+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3141,7 +3174,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd_media.git",
-                    "reference": "f9d245fa77fc57503452df7a199d89e0a2c5a3a2"
+                    "reference": "a56b5ede0d463c3e13afb49f2dc0a34112ace89d"
                 },
                 "require": {
                     "acquia/lightning": "^3.2||^4.0||^5.0",
@@ -3156,7 +3189,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2020-07-21T12:41:35+00:00",
+                "time": "2020-07-30T03:54:28+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3624,7 +3657,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
-                    "reference": "f2454fe47793ec7ae06331491a1443a96a738fd8"
+                    "reference": "6a813097a1723e7fe1fe51f9a1e3cd16021e39d7"
                 },
                 "require": {
                     "drupal/password_policy": "^3.0@beta",
@@ -3632,7 +3665,7 @@
                     "drupal/seckit": "1.x-dev",
                     "drupal/session_limit": "1.x-dev"
                 },
-                "time": "2020-07-27T08:38:35+00:00",
+                "time": "2020-07-30T03:53:36+00:00",
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
@@ -3691,12 +3724,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-share-links.git",
-                    "reference": "fa55fa37631ca0754e70f92db061ce7910b514a9"
+                    "reference": "8cca6dc924de3b071754c37fc36f5ee96caef32c"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2017-08-23T01:41:41+00:00",
+                "time": "2020-07-30T03:49:07+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -3841,11 +3874,11 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
-                    "reference": "5ef6515dce37cc9e932d96be13f2bf9d6e6e9a4d"
+                    "reference": "260b54c4a5883e4104e26797f9cfe11731e04381"
                 },
                 "require": {
                     "drupal/config_rewrite": "^1.1",
-                    "drupal/webform": "^5.0@rc",
+                    "drupal/webform": "^5.0||^6.0@alpha",
                     "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
                     "npm-asset/progress-tracker": "1.4.0",
                     "oomphinc/composer-installers-extender": "^1.1"
@@ -3857,7 +3890,7 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-04-05T03:16:24+00:00",
+                "time": "2020-07-30T03:52:55+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "installer-types": [
@@ -4639,7 +4672,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "ab316171f1e81bafeca4f84ef59b6ea3a25cc754"
+                    "reference": "2b23907c33011613c73878c9fee4fe15c61af625"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -4689,7 +4722,7 @@
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-07-27T11:23:09+00:00",
+                "time": "2020-07-30T03:55:10+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
