@@ -2582,9 +2582,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-layouts.git",
-                    "reference": "7a8f4e852900543a1ca6ec69dd1296023a0cd2d6"
+                    "reference": "d1925be364a8bee654df7a1b927b8c756201b8c4"
                 },
-                "time": "2019-03-20T05:10:32+00:00",
+                "time": "2020-07-30T04:47:35+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3425,12 +3425,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
-                    "reference": "ef25f85601c6e42a68dd2347178ed903766a5cb0"
+                    "reference": "b07feb533aaffdc3e9d13f834df18e264673e263"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2018-10-22T23:51:05+00:00",
+                "time": "2020-07-30T04:50:04+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
