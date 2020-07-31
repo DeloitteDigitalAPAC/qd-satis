@@ -1498,9 +1498,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-alerts.git",
-                    "reference": "13db3182a98d1b13e29276d499d5f8b5124864e0"
+                    "reference": "6f768bf7a8182b2a2091568f6a9d409380e7bd57"
                 },
-                "time": "2020-03-11T04:10:47+00:00",
+                "time": "2020-07-31T01:56:42+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
@@ -1965,9 +1965,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-download.git",
-                    "reference": "cc7b0a9dfcbacd7d475aeee99192aac321e899a9"
+                    "reference": "059e309523091455085e41f81a3ff7758647e45c"
                 },
-                "time": "2019-01-02T06:41:38+00:00",
+                "time": "2020-07-31T01:56:30+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2101,13 +2101,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-event.git",
-                    "reference": "6d86145a66e819837327d856f8821bf6089e92cb"
+                    "reference": "9fe54d71e364a102faabb57f749b1bf9df5196d9"
                 },
                 "require": {
                     "deloittedigital/google_maps_overlays": "^0.0.8",
                     "drupal/address": "^1.1"
                 },
-                "time": "2019-01-02T06:49:58+00:00",
+                "time": "2020-07-31T01:56:19+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
@@ -2681,16 +2681,15 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-link-description.git",
-                    "reference": "d3667d9b74345b0530594945b4679548b5a61e74"
+                    "reference": "6b98278f67578a21daf7f086f9d132e94e4d0e84"
                 },
                 "require-dev": {
-                    "asm89/twig-lint": "@stable",
                     "dealerdirect/phpcodesniffer-composer-installer": "@stable",
                     "drupal/coder": "^8.0",
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2019-03-20T04:08:58+00:00",
+                "time": "2020-07-31T01:56:04+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3425,12 +3424,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
-                    "reference": "b07feb533aaffdc3e9d13f834df18e264673e263"
+                    "reference": "9db8db40f9344969f92ab015ee7b8c103eb74738"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2020-07-30T04:50:04+00:00",
+                "time": "2020-07-31T06:53:33+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
@@ -3506,9 +3505,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-photo-gallery.git",
-                    "reference": "6fcde7cda3ae7fd4d4a2d0a76be5d327a1cd27f6"
+                    "reference": "61b2a6874ef3bfc9bacf3731e186b9a9321a8897"
                 },
-                "time": "2018-10-26T05:04:33+00:00",
+                "time": "2020-07-31T01:55:49+00:00",
                 "type": "drupal-module",
                 "license": [
                     "proprietary"
@@ -4672,7 +4671,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "2b23907c33011613c73878c9fee4fe15c61af625"
+                    "reference": "3a5eb549624fb65eac101c3ce4338c6d40ad69c3"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -4722,7 +4721,7 @@
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-07-30T03:55:10+00:00",
+                "time": "2020-07-31T06:54:50+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
