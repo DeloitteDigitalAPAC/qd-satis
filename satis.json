@@ -86,6 +86,10 @@
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git"
         },
+        "drupal-project-dev": {
+            "type": "vcs",
+            "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-dev.git"
+        },
         "media_entity_soundcloud": {
             "type": "vcs",
             "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/media_entity_soundcloud.git"
