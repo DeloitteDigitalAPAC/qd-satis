@@ -998,6 +998,120 @@
                     "issues": "https://hub.deloittedigital.com.au/jira/",
                     "wiki": "https://hub.deloittedigital.com.au/wiki/"
                 }
+            },
+            "dev-update-dev-packages": {
+                "name": "deloittedigital/drupal-project",
+                "version": "dev-update-dev-packages",
+                "version_normalized": "dev-update-dev-packages",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
+                    "reference": "e655eb24c953a90045a1ac1f5ef2ca3d4deba329"
+                },
+                "require": {
+                    "acquia/blt": "^10.0",
+                    "acquia/lightning": "^4.0.0",
+                    "acquia/memcache-settings": "@dev",
+                    "composer/installers": "^1.2",
+                    "cweagans/composer-patches": "^1.6.5",
+                    "deloittedigital/quadrupal": "2.0.0",
+                    "drupal-composer/drupal-scaffold": "^2.5",
+                    "drupal/acquia_connector": "^1.5",
+                    "drupal/acquia_purge": "^1.0-beta3",
+                    "drupal/console": "^1.0.2",
+                    "drupal/core": "8.7",
+                    "drush/drush": "^9.0",
+                    "php": ">=7.2",
+                    "vlucas/phpdotenv": "^2.4",
+                    "webflo/drupal-finder": "^1.0",
+                    "webmozart/path-util": "^2.3",
+                    "zaporylie/composer-drupal-optimizations": "^1.0"
+                },
+                "conflict": {
+                    "drupal/drupal": "*"
+                },
+                "require-dev": {
+                    "acquia/blt-require-dev": "^10.0@alpha",
+                    "deloittedigital/drupal-project-dev": "8.x-dev",
+                    "webflo/drupal-core-require-dev": "^8.7"
+                },
+                "time": "2020-08-07T01:22:19+00:00",
+                "type": "project",
+                "extra": {
+                    "composer-exit-on-patch-failure": true,
+                    "drupal-scaffold": {
+                        "initial": {
+                            ".editorconfig": "../.editorconfig",
+                            ".gitattributes": "../.gitattributes"
+                        }
+                    },
+                    "enable-patching": true,
+                    "installer-paths": {
+                        "docroot/core": [
+                            "type:drupal-core"
+                        ],
+                        "docroot/libraries/{$name}": [
+                            "type:drupal-library",
+                            "type:bower-asset",
+                            "type:npm-asset"
+                        ],
+                        "docroot/modules/contrib/{$name}": [
+                            "type:drupal-module"
+                        ],
+                        "docroot/profiles/contrib/{$name}": [
+                            "type:drupal-profile"
+                        ],
+                        "docroot/themes/contrib/{$name}": [
+                            "type:drupal-theme"
+                        ],
+                        "drush/Commands/contrib/{$name}": [
+                            "type:drupal-drush"
+                        ]
+                    },
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "patchLevel": {
+                        "drupal/core": "-p2"
+                    },
+                    "patches": []
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Example\\": "blt/src/"
+                    },
+                    "files": [
+                        "load.environment.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Drupal\\Tests\\PhpUnit\\": "tests/phpunit/src/"
+                    }
+                },
+                "scripts": {
+                    "post-create-project-cmd": [
+                        "blt internal:create-project:init-repo"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Project template for Drupal 8 projects with composer",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/drupal-project/",
+                    "issues": "https://hub.deloittedigital.com.au/jira/",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/"
+                }
             }
         },
         "deloittedigital/drupal-project-dev": {
@@ -1008,7 +1122,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-dev.git",
-                    "reference": "b58083c81e0e2edf611bb783801b29ffb51ab291"
+                    "reference": "68f98449316137da1a801ef7fec5e284ca8a14f9"
                 },
                 "require": {
                     "acquia/drupal-spec-tool": "^2.0",
@@ -1016,11 +1130,50 @@
                     "dealerdirect/phpcodesniffer-composer-installer": "@stable",
                     "drupal/coder": "^8.0",
                     "drupal/config_inspector": "^1.0",
-                    "geerlingguy/drupal-vm": "^4.8",
+                    "geerlingguy/drupal-vm": "^5.1",
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2020-08-05T06:08:38+00:00",
+                "time": "2020-08-07T03:48:35+00:00",
+                "type": "metapackage",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Development tools for Drupal projects by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/drupal-dev/",
+                    "issues": "https://hub.deloittedigital.com.au/jira/",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/"
+                }
+            },
+            "dev-update-vm-version": {
+                "name": "deloittedigital/drupal-project-dev",
+                "version": "dev-update-vm-version",
+                "version_normalized": "dev-update-vm-version",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-dev.git",
+                    "reference": "68f98449316137da1a801ef7fec5e284ca8a14f9"
+                },
+                "require": {
+                    "acquia/drupal-spec-tool": "^2.0",
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "drupal/config_inspector": "^1.0",
+                    "geerlingguy/drupal-vm": "^5.1",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2020-08-07T03:48:35+00:00",
                 "type": "metapackage",
                 "license": [
                     "proprietary"
@@ -1872,16 +2025,16 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "deloittedigital/qd_childmenu",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "7dfa7dcf96a6f4319dbcda54cf3956a847ab5710"
+                    "reference": "62e51eea767062593fd17000afd9153b9706d2b9"
                 },
-                "time": "2019-03-20T00:58:58+00:00",
+                "time": "2020-08-10T00:29:45+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1904,16 +2057,16 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
                 }
             },
-            "dev-feature-DDDP-145-add-d9-version-req": {
+            "dev-master": {
                 "name": "deloittedigital/qd_childmenu",
-                "version": "dev-feature-DDDP-145-add-d9-version-req",
-                "version_normalized": "dev-feature-DDDP-145-add-d9-version-req",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "8bda6d12d0a0fcd1aed372b831e84c96fa88d846"
+                    "reference": "62e51eea767062593fd17000afd9153b9706d2b9"
                 },
-                "time": "2020-07-30T03:50:03+00:00",
+                "time": "2020-08-10T00:29:45+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -3669,31 +3822,29 @@
                 "type": "drupal-module",
                 "description": "Quadrupal security feature."
             },
+            "1.4.0": {
+                "name": "deloittedigital/qd_security",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
+                    "reference": "6a813097a1723e7fe1fe51f9a1e3cd16021e39d7"
+                },
+                "require": {
+                    "drupal/password_policy": "^3.0@beta",
+                    "drupal/remove_http_headers": "1.x-dev",
+                    "drupal/seckit": "1.x-dev",
+                    "drupal/session_limit": "1.x-dev"
+                },
+                "time": "2020-07-30T03:53:36+00:00",
+                "type": "drupal-module",
+                "description": "Quadrupal security feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_security",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
-                    "reference": "495cce810e5ed7f8273e5199d3c4059a6dc9170e"
-                },
-                "require": {
-                    "drupal/clamav": "^1.0",
-                    "drupal/login_security": "^1.5",
-                    "drupal/password_policy": "^3.0@alpha",
-                    "drupal/remove_http_headers": "^1.0@beta",
-                    "drupal/seckit": "^1.2",
-                    "drupal/session_limit": "^1.0@beta"
-                },
-                "time": "2020-01-22T03:18:38+00:00",
-                "type": "drupal-module",
-                "description": "Quadrupal security feature."
-            },
-            "dev-feature-DDDP-145-remove-incompatible-modules": {
-                "name": "deloittedigital/qd_security",
-                "version": "dev-feature-DDDP-145-remove-incompatible-modules",
-                "version_normalized": "dev-feature-DDDP-145-remove-incompatible-modules",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-security.git",
