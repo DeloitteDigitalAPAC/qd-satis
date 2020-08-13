@@ -5002,7 +5002,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "3a5eb549624fb65eac101c3ce4338c6d40ad69c3"
+                    "reference": "ec711deb3441ac567ba273ec97eed3fb9bc294cf"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -5011,13 +5011,13 @@
                     "deloittedigital/qd_childmenu": "^1.0",
                     "deloittedigital/qd_download": "^1.2",
                     "deloittedigital/qd_event": "^1.2",
-                    "deloittedigital/qd_layouts": "~1.0.0||^1.2",
+                    "deloittedigital/qd_layouts": "^1.2.1",
                     "deloittedigital/qd_link_description": "^1.0",
                     "deloittedigital/qd_media": "^2.0",
-                    "deloittedigital/qd_news": "^1.2.0",
+                    "deloittedigital/qd_news": "^2.0.0",
                     "deloittedigital/qd_photo_gallery": "^1.2",
                     "deloittedigital/qd_security": "^1.2.0",
-                    "deloittedigital/qd_share_links": "^0.0.1",
+                    "deloittedigital/qd_share_links": "^0.1.0",
                     "deloittedigital/qd_webform": "^1.0",
                     "drupal/admin_toolbar": "^1.24||^2.2",
                     "drupal/config_ignore": "^2.1",
@@ -5052,7 +5052,7 @@
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-07-31T06:54:50+00:00",
+                "time": "2020-08-13T04:13:08+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
