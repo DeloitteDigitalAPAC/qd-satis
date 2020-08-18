@@ -377,6 +377,34 @@
                     "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
                 }
             },
+            "v1.0.25": {
+                "name": "deloittedigital/air",
+                "version": "v1.0.25",
+                "version_normalized": "1.0.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
+                    "reference": "ba64acbef8a95f5be69209699a33ca1b175d8523"
+                },
+                "time": "2020-08-18T02:42:05+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Base theme for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/air-theme/browse",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/display/DDDP"
+                }
+            },
             "v1.0.3": {
                 "name": "deloittedigital/air",
                 "version": "v1.0.3",
@@ -496,9 +524,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "9788d5891ce21fc2fc32e02b9aaa83023d38a5d8"
+                    "reference": "c9e2726a89bbcbf351f6bc7918eea45e106f1582"
                 },
-                "time": "2020-08-13T02:09:16+00:00",
+                "time": "2020-08-18T02:37:15+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
@@ -552,9 +580,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/air-theme.git",
-                    "reference": "76ca0e5bd8a2b8be92efba495005abee5d7b0bd7"
+                    "reference": "ba64acbef8a95f5be69209699a33ca1b175d8523"
                 },
-                "time": "2020-08-13T00:30:04+00:00",
+                "time": "2020-08-18T02:42:05+00:00",
                 "type": "drupal-theme",
                 "license": [
                     "proprietary"
