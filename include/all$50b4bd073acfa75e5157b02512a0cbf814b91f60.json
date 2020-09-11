@@ -2145,6 +2145,38 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
                 }
             },
+            "2.0.0": {
+                "name": "deloittedigital/qd_childmenu",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
+                    "reference": "b6808e70b0cb3c3f4d844f44a0a067bc4dee1ec0"
+                },
+                "time": "2020-09-11T04:38:07+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The Child Menu block type for Drupal by Deloitte Digital. Show links to children of the current page from the Drupal menu hierarchy.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-childmenu/browse"
+                }
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_childmenu",
                 "version": "dev-master",
@@ -2152,9 +2184,9 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-childmenu.git",
-                    "reference": "62e51eea767062593fd17000afd9153b9706d2b9"
+                    "reference": "b6808e70b0cb3c3f4d844f44a0a067bc4dee1ec0"
                 },
-                "time": "2020-08-10T00:29:45+00:00",
+                "time": "2020-09-11T04:38:07+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
