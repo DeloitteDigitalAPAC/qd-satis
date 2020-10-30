@@ -4317,10 +4317,10 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "deloittedigital/qd_webform",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
@@ -4341,6 +4341,64 @@
                     "squizlabs/php_codesniffer": "@stable"
                 },
                 "time": "2020-07-30T03:52:55+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "libraries/jquery.{$name}": [
+                            "npm-asset/jquery-word-and-character-counter-plugin"
+                        ],
+                        "libraries/{$name}": [
+                            "npm-asset/progress-tracker"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Webform for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
+                }
+            },
+            "dev-master": {
+                "name": "deloittedigital/qd_webform",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
+                    "reference": "3d2bbd69865906d60a1338e2af753a7dc62d42d6"
+                },
+                "require": {
+                    "drupal/config_rewrite": "^1.1",
+                    "drupal/webform": "^5.0||^6.0@alpha",
+                    "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
+                    "npm-asset/progress-tracker": "1.4.0",
+                    "oomphinc/composer-installers-extender": "^1.1"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2020-10-30T06:57:01+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "installer-types": [
