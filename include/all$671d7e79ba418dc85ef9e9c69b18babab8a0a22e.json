@@ -5180,7 +5180,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "ec711deb3441ac567ba273ec97eed3fb9bc294cf"
+                    "reference": "15e308ad7a48fcc7dcc8ecdce1e9be976eeda774"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -5230,7 +5230,7 @@
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-08-13T04:13:08+00:00",
+                "time": "2020-10-30T08:17:24+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
