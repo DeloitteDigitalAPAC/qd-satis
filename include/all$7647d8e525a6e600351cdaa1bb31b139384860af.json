@@ -934,7 +934,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "e53faf4990376fa94f5ae1dc2ec33a9b665c0f8f"
+                    "reference": "558b164669ba76b189ca0f2f81cbd7a3ab15611b"
                 },
                 "require": {
                     "acquia/blt": "^10.0",
@@ -963,7 +963,7 @@
                     "deloittedigital/drupal-project-dev": "8.x-dev",
                     "webflo/drupal-core-require-dev": "^8.7"
                 },
-                "time": "2020-11-03T03:55:12+00:00",
+                "time": "2020-11-03T05:05:22+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
@@ -1216,6 +1216,45 @@
                     "squizlabs/php_codesniffer": "@stable"
                 },
                 "time": "2020-08-10T03:50:25+00:00",
+                "type": "metapackage",
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Development tools for Drupal projects by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/drupal-dev/",
+                    "issues": "https://hub.deloittedigital.com.au/jira/",
+                    "wiki": "https://hub.deloittedigital.com.au/wiki/"
+                }
+            },
+            "dev-azure-pipelines": {
+                "name": "deloittedigital/drupal-project-dev",
+                "version": "dev-azure-pipelines",
+                "version_normalized": "dev-azure-pipelines",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-dev.git",
+                    "reference": "05b87138c74447689547274995647e0cef46b55d"
+                },
+                "require": {
+                    "acquia/drupal-spec-tool": "^2.0",
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "drupal/config_inspector": "^1.0",
+                    "geerlingguy/drupal-vm": "^5.1",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2020-11-03T06:26:13+00:00",
                 "type": "metapackage",
                 "license": [
                     "proprietary"
@@ -3838,6 +3877,31 @@
                 },
                 "description": "Quadrupal news feature."
             },
+            "2.0.1": {
+                "name": "deloittedigital/qd_news",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
+                    "reference": "51781cc99513140d6c81e2536c614da31767501b"
+                },
+                "require-dev": {
+                    "deloittedigital/qd_test": "^1.0"
+                },
+                "time": "2020-11-03T05:01:21+00:00",
+                "type": "drupal-module",
+                "scripts": {
+                    "build": [
+                        "@composer install -n --prefer-dist",
+                        "docker build --tag qd-test:$(basename \"$PWD\") ./vendor/deloittedigital/qd_test"
+                    ],
+                    "test": [
+                        "docker run -i -v $(pwd):/src qd-test:$(basename \"$PWD\")"
+                    ]
+                },
+                "description": "Quadrupal news feature."
+            },
             "dev-master": {
                 "name": "deloittedigital/qd_news",
                 "version": "dev-master",
@@ -5173,7 +5237,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "15e308ad7a48fcc7dcc8ecdce1e9be976eeda774"
+                    "reference": "1f4682a655f8e00a1708906ef2584b6944de9a39"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -5223,7 +5287,7 @@
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-10-30T08:17:24+00:00",
+                "time": "2020-11-03T06:27:11+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
