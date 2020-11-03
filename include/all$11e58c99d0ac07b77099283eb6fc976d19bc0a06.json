@@ -934,7 +934,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/drupal-project.git",
-                    "reference": "7af96833ec8ddc79bf82d5fea845c21b5de11f24"
+                    "reference": "e53faf4990376fa94f5ae1dc2ec33a9b665c0f8f"
                 },
                 "require": {
                     "acquia/blt": "^10.0",
@@ -942,12 +942,12 @@
                     "acquia/memcache-settings": "@dev",
                     "composer/installers": "^1.2",
                     "cweagans/composer-patches": "^1.6.5",
-                    "deloittedigital/quadrupal": "2.x-dev",
+                    "deloittedigital/quadrupal": "^2.0",
                     "drupal-composer/drupal-scaffold": "^2.5",
                     "drupal/acquia_connector": "^1.5",
                     "drupal/acquia_purge": "^1.0-beta3",
                     "drupal/console": "^1.0.2",
-                    "drupal/core": "^8.7",
+                    "drupal/core": "~8.7.0",
                     "drush/drush": "^9.0",
                     "php": ">=7.2",
                     "vlucas/phpdotenv": "^2.4",
@@ -960,17 +960,10 @@
                 },
                 "require-dev": {
                     "acquia/blt-require-dev": "^10.0@alpha",
-                    "acquia/drupal-spec-tool": "^2.0",
-                    "asm89/twig-lint": "@stable",
-                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
-                    "drupal/coder": "^8.0",
-                    "drupal/config_inspector": "^1.0",
-                    "geerlingguy/drupal-vm": "^4.8",
-                    "grasmash/yaml-cli": "@stable",
-                    "squizlabs/php_codesniffer": "@stable",
+                    "deloittedigital/drupal-project-dev": "8.x-dev",
                     "webflo/drupal-core-require-dev": "^8.7"
                 },
-                "time": "2020-05-01T07:17:46+00:00",
+                "time": "2020-11-03T03:55:12+00:00",
                 "type": "project",
                 "extra": {
                     "composer-exit-on-patch-failure": true,
@@ -3852,12 +3845,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-news.git",
-                    "reference": "9db8db40f9344969f92ab015ee7b8c103eb74738"
+                    "reference": "51781cc99513140d6c81e2536c614da31767501b"
                 },
                 "require-dev": {
                     "deloittedigital/qd_test": "^1.0"
                 },
-                "time": "2020-07-31T06:53:33+00:00",
+                "time": "2020-11-03T05:01:21+00:00",
                 "type": "drupal-module",
                 "scripts": {
                     "build": [
