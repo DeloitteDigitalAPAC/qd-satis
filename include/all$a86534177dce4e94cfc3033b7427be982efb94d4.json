@@ -4561,21 +4561,21 @@
                     "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "deloittedigital/qd_webform",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
-                    "reference": "3d2bbd69865906d60a1338e2af753a7dc62d42d6"
+                    "reference": "eba3d94e9b548864711333f246a8ccfec632269e"
                 },
                 "require": {
                     "drupal/config_rewrite": "^1.1",
                     "drupal/webform": "^5.0||^6.0@alpha",
                     "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
                     "npm-asset/progress-tracker": "1.4.0",
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^1.1||^2.0"
                 },
                 "require-dev": {
                     "asm89/twig-lint": "@stable",
@@ -4584,7 +4584,65 @@
                     "grasmash/yaml-cli": "@stable",
                     "squizlabs/php_codesniffer": "@stable"
                 },
-                "time": "2020-10-30T06:57:01+00:00",
+                "time": "2021-03-25T05:35:56+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "installer-types": [
+                        "bower-asset",
+                        "npm-asset"
+                    ],
+                    "installer-paths": {
+                        "libraries/jquery.{$name}": [
+                            "npm-asset/jquery-word-and-character-counter-plugin"
+                        ],
+                        "libraries/{$name}": [
+                            "npm-asset/progress-tracker"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Deloitte Digital (Australia)",
+                        "email": "drupal@deloitte.com.au",
+                        "homepage": "http://deloittedigital.com.au",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "The best of Webform for Drupal by Deloitte Digital.",
+                "support": {
+                    "source": "https://hub.deloittedigital.com.au/stash/projects/DRU/repos/qd-webform/browse"
+                }
+            },
+            "dev-master": {
+                "name": "deloittedigital/qd_webform",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/qd-webform.git",
+                    "reference": "eba3d94e9b548864711333f246a8ccfec632269e"
+                },
+                "require": {
+                    "drupal/config_rewrite": "^1.1",
+                    "drupal/webform": "^5.0||^6.0@alpha",
+                    "npm-asset/jquery-word-and-character-counter-plugin": "2.3.5",
+                    "npm-asset/progress-tracker": "1.4.0",
+                    "oomphinc/composer-installers-extender": "^1.1||^2.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "@stable",
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "drupal/coder": "^8.0",
+                    "grasmash/yaml-cli": "@stable",
+                    "squizlabs/php_codesniffer": "@stable"
+                },
+                "time": "2021-03-25T05:35:56+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "installer-types": [
@@ -5366,7 +5424,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@dvcs.deloittedigital.com.au:22/dru/quadrupal.git",
-                    "reference": "20f0cef452065eaad0a05a6b4403876f75767b77"
+                    "reference": "5889070fc6db1f65df36882c48c091b13de77549"
                 },
                 "require": {
                     "acquia/lightning": "^4.0||^5.0",
@@ -5411,12 +5469,12 @@
                     "drupal/core-dev": "^8.8||^9.0",
                     "drush/drush": "^9.7||^10.0",
                     "grasmash/yaml-cli": "@stable",
-                    "oomphinc/composer-installers-extender": "^1.1",
+                    "oomphinc/composer-installers-extender": "^1.1||^2.0",
                     "squizlabs/php_codesniffer": "@stable",
                     "weitzman/drupal-test-traits": "^1.0",
                     "zaporylie/composer-drupal-optimizations": "^1.1"
                 },
-                "time": "2020-11-03T06:27:11+00:00",
+                "time": "2021-03-25T05:39:04+00:00",
                 "type": "drupal-profile",
                 "extra": {
                     "branch-alias": {
